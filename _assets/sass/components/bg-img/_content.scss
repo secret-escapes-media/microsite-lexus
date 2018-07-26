@@ -38,4 +38,12 @@
     @include transition;
   }
   &:hover &__bg-overlay { background-color: rgba($black,.6); }
+
+  &__play {
+    @include transition;
+    width: 160px; height: 160px;
+    display: inline-block;
+    transform: scale(1);
+  }
+  &:hover &__play { transform: scale(1.05); }
 }

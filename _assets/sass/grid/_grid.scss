@@ -155,8 +155,6 @@
 
 // general width limits for content
 .width {
-  margin-right: auto;
-  margin-left: auto;
   &--xxs { max-width: ($sm / 3); }
   &--xs  { max-width: ($sm / 2); }
   &--sm  { max-width: $sm; }

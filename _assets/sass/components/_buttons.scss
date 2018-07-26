@@ -14,9 +14,15 @@
   @include transition;
   &--sm { padding: $s1 $s4; font-size: $s-2; }
   &--lg { padding: $s3 $s8; font-size: $s-1; }
+
   &--orange { background-color: $orange;
     &:hover { background-color: $orange-dark; }
   }
+  &--solid { background-color: $b-navy;
+    &:hover { background-color: darken($b-navy,10); }
+  }
+
+
   &--outline {
     color: inherit;
     &:before {

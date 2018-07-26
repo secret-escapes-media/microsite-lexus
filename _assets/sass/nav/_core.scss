@@ -16,6 +16,7 @@ $core-nav-padding-sm: 1rem;
 }
 
 .site-header {
+  @include transition;
   position: absolute;
   top: 0;
   left: 0;
@@ -32,6 +33,14 @@ $core-nav-padding-sm: 1rem;
     @include core-nav-height;
   }
 
+}
+
+.site-header.is-minimised {
+  top: -54px;
+  @include bp($md){
+    top: -70px;
+  }
+  & .site-nav { background-color: $grey-darkest; }
 }
 
 

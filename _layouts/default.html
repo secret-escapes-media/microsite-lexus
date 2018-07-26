@@ -3,19 +3,11 @@
 
   {% include page/head.html %}
 
-  <body>
+  <body class="layout--{{page.layout}}">
 
     {% include components/tracking.html %}
 
-    {% include page/header.html %}
-
-    {% include page/banner.html %}
-
-    <div class="content-spacing section-spacing">
-      {{ content }}
-    </div>
-
-    {% include page/footer.html %}
+    {{ content }}
 
     {% include modal/modal.html %}
 

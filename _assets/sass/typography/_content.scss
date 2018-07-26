@@ -25,6 +25,11 @@ ol li   { list-style-type: decimal; }
 hr {
   border: 0;
   height: 1px;
-  background-color: $grey-lightest;
+  background-color: $grey-lighter;
   margin: $s1 0;
+}
+.hr {
+  &--left { width: 80px; margin-left: 0; }
+  &--right { width: 80px; margin-left: 0; }
+  &--center { width: 80px; margin-left: auto; margin-right: auto; }
 }

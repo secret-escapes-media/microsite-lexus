@@ -1,0 +1,18 @@
+<!-- Text only modal - e.g. terms and conditions -->
+<div class="container container--xl container--no-padding modal__content modal-profile">
+  <div class="modal-profile__image bg-img bg-img--21-9" style="background-image: url({{site.img}}/content/{{page.id}}/photographers/{{item.id}}-bg.jpg);">
+    <div class="modal-profile__picture bg-img bg-img--1-1 bg-img--rounded bg-img--shadow" style="background-image: url({{site.img}}/content/{{page.id}}/photographers/{{item.id}}.jpg);"></div>
+  </div>
+  <div class="boxpad--xxl bg--grey-darkest">
+
+    {% if item.title %}<h3 class="title title--md text--bold">{{item.title}}</h3>{% endif %}
+    <div class="space--xs"></div>
+    <p class="title text--wide-kern text--upper text--bold">
+      {% if item.job %}{{item.job}}{% endif %} <span class="text--light">|</span>
+      {% if item.instagram %} <img src="{{site.img}}/icons/social-ig-white.svg" width="15"> {{item.instagram}}{% endif %}
+    </p>
+    <hr>
+    {{item.content}}
+
+  </div>
+</div>
