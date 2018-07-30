@@ -9,15 +9,17 @@ layout: default
 <!-- BANNER -->
 <div class="roadtrip-banner is-active">
   <div class="roadtrip-banner__wrap">
-    <div class="container">
-      <div class="width width--xl">
-        <h1 class="banner-title">{{page.title}}</h1>
-        <h4 class="sub-title">{{roadtrip.location}}</h4>
-        <hr class="hr--left">
+    <div class="container text--center">
+
+      <h1 class="banner-title">{{page.title}}</h1>
+      <h4 class="sub-title">{{roadtrip.location}}</h4>
+      <hr class="hr--center">
+      <div class="container container--xl text--normal">
         {{page.intro}}
-        <div class="space--sm"></div>
-        <a href="#" class="js-roadtrip-start btn btn--solid">Start your engines</a>
       </div>
+      <div class="space--sm"></div>
+      <a href="#" class="js-roadtrip-start btn btn--solid">Start your engines</a>
+
     </div>
   </div>
   <div class="roadtrip-banner__bg" style="background-image: url({{site.img}}/content/{{page.id}}/banner.jpg);"></div>
@@ -39,9 +41,9 @@ layout: default
             <div class="container container--xl container--no-padding">
               <h6 class="title title--xxxs text--upper text--wide-kern text--bold">{{page.title}}</h6>
               <div class="vpad--xxs">
-                <h4 class="title title--bold title--lg">{{stop.title}}</h4>
+                <h2 class="title title--xl text--bold">{{stop.title}}</h2>
               </div>
-              <h6 class="title title--xxxs text--upper text--wide-kern text--bold">Milestone {{forloop.index}}</h6>
+              <h6 class="title title--xxxs text--upper text--wide-kern text--bold">Stop {{forloop.index}}</h6>
               <div class="space--sm"></div>
 
               <p>{{stop.content}}</p>
