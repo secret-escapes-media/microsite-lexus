@@ -1,0 +1,81 @@
+---
+layout: standard
+id: family-getaway
+title: A Family Getaway
+nav: true
+nav-order: 2
+content-pages: true
+
+intro: >
+  <p class="text--lg">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum.</p>
+
+features:
+
+  - id: cotswolds
+    title: Cotswolds
+    content: Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nulla vitae elit libero, a pharetra augue.
+
+  - id: peak-district
+    title: Peak District
+    content: Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nulla vitae elit libero, a pharetra augue.
+
+  - id: lake-district
+    title: Lake District
+    content: Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nulla vitae elit libero, a pharetra augue.
+
+---
+
+
+
+<div class="vpad--xxl bg--grey-lightest">
+  <div class="container container--xxl text--center">
+    {{page.intro}}
+  </div>
+</div>
+
+
+
+<div class="vpad--xxl">
+
+  <div class="container container--xxl ">
+
+    <div class="bg-img bg-img--16-9" style="background-image: url('{{site.img}}/content/video.jpg');">
+      <a href="javascript:void(0);" data-modal-item="video-modal-1" class="js-open-modal bg-img__link"></a>
+      <div class="bg-img__content">
+        <div class="bg-img__play">
+          <img src="{{site.img}}/icons/play.svg" alt="Play" width="100%">
+        </div>
+      </div>
+      <div class="bg-img__bg-overlay"></div>
+    </div>
+
+    <div class="space--sm"></div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis a laborum, amet repellat, quasi exercitationem laboriosam quisquam officia voluptatem officiis magnam perferendis iste dolor dolore ipsa illo non pariatur cumque quod delectus nostrum rem facilis! Ipsum, nostrum debitis illum voluptas ad molestias.</p>
+
+  </div>
+
+
+  <div class="container container--xxl">
+    {% for feature in page.features %}
+      <div class="bob{% cycle "", " bob--swap"%}">
+        <div class="bob__img">
+          <div class="bg-img bg-img--16-9" style="background-image: url({{site.img}}/img.jpg);"></div>
+        </div>
+        <div class="bob__text">
+          <h4 class="title title--sm text--normal">{{feature.title}}</h4>
+          <div class="space--sm"></div>
+          {{feature.content}}
+          <div class="space--sm"></div>
+          <a href="javascript:void(0);" data-modal-item="roadtrip-{{feature.id}}" class="js-open-modal btn btn--solid btn--sm">Find out more</a>
+        </div>
+      </div>
+      {% unless forloop.last %} <div class="space--xl"></div> {% endunless %}
+    {% endfor %}
+  </div>
+
+
+</div>
+
+
+
+{% include page/promo-test-drive.html %}

@@ -26,6 +26,8 @@
                   {% include modal/content/video.html %}
                 {% elsif item.iframe %}
                   {% include modal/content/form.html %}
+                {% elsif item.type == 'roadtrip-offers' %}
+                  {% include modal/content/roadtrip-offers.html %}
                 {% else %}
                   {% include modal/content/text.html %}
                 {% endif %}

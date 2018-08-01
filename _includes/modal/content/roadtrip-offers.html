@@ -1,0 +1,26 @@
+<!-- Text only modal - e.g. terms and conditions -->
+<div class="container container--xl container--no-padding modal__content modal-text bg--white">
+  <div class="boxpad--xxl">
+
+    {% if item.title %}<h3 class="title title--md text--bold">{{item.title}}</h3>{% endif %}
+    <div class="space--xs"></div>
+    {% if item.subtitle %}<p class="title title--xxxs text--wide-kern text--upper">{{item.subtitle}}</p>{% endif %}
+    <hr>
+    {{item.content}}
+    <div class="space--md"></div>
+    <div class="bg--grey-lightest boxpad--md">
+      {{item.review}}
+    </div>
+    <div class="space--md"></div>
+    Roadtrip offer
+    <div class="space--md"></div>
+    <div class="row row--xl-6-6 row--gutters-lg">
+      {% for offer in site.data.offers %}
+        <div class="col">
+          {% include offer/offer.html %}
+        </div>
+      {% endfor %}
+    </div>
+
+  </div>
+</div>

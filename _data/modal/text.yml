@@ -22,3 +22,31 @@
   pages:
     - id: lexus
 
+
+
+
+- type: roadtrip-offers
+  id: roadtrip-cotswolds
+  title: Cotswolds
+  content: Nullam quis risus eget urna mollis ornare vel eu leo. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Sed posuere consectetur est at lobortis.
+  review: Review of this region by George including a flowery description of the hotel. Hotel from roadtrip featured below
+  pages:
+    - id: family-getaway
+
+
+- type: roadtrip-offers
+  id: roadtrip-peak-district
+  title: Peak District
+  content: Nullam quis risus eget urna mollis ornare vel eu leo. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Sed posuere consectetur est at lobortis.
+  review: Review of this region by George including a flowery description of the hotel. Hotel from roadtrip featured below
+  pages:
+    - id: family-getaway
+
+
+- type: roadtrip-offers
+  id: roadtrip-lake-district
+  title: Lake District
+  content: Nullam quis risus eget urna mollis ornare vel eu leo. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Sed posuere consectetur est at lobortis.
+  review: Review of this region by George including a flowery description of the hotel. Hotel from roadtrip featured below
+  pages:
+    - id: family-getaway
