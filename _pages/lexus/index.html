@@ -3,7 +3,7 @@ layout: standard
 id: lexus
 title: Lexus
 nav: true
-nav-order: 5
+nav-order: 3
 content-pages: true
 
 intro: >
@@ -12,15 +12,23 @@ intro: >
 features:
 
   - id: feature-1
-    title: Feature
+    title: Self-Charging Hybrid
     content: Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nulla vitae elit libero, a pharetra augue.
 
   - id: feature-2
-    title: Feature
+    title: Luxury interiors
     content: Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nulla vitae elit libero, a pharetra augue.
 
   - id: feature-3
-    title: Feature
+    title: Adaptive Variable Suspension
+    content: Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nulla vitae elit libero, a pharetra augue.
+
+  - id: feature-3
+    title: Lexus Premium Navigation
+    content: Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nulla vitae elit libero, a pharetra augue.
+
+  - id: feature-3
+    title: Lexus Safety System
     content: Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nulla vitae elit libero, a pharetra augue.
 
 ---
@@ -35,10 +43,10 @@ features:
     {% for feature in page.features %}
       <div class="bob{% cycle "", " bob--swap"%}">
         <div class="bob__img">
-          <div class="bg-img bg-img--4-3" style="background-image: url({{site.img}}/img.jpg);"></div>
+          <div class="bg-img bg-img--16-9" style="background-image: url({{site.img}}/img.jpg);"></div>
         </div>
         <div class="bob__text">
-          <h4 class="title title--sm text--normal">{{feature.title}}</h4>
+          <h4 class="title title--md text--normal">{{feature.title}}</h4>
           <div class="space--sm"></div>
           {{feature.content}}
         </div>
@@ -49,4 +57,29 @@ features:
 </div>
 
 
-{% include page/promo-competition.html %}
+<div class="container container--no-padding container--100">
+  <div class="row row--6-6 row--no-gutters row--valign-center text--center">
+
+    <div class="col">
+      <div class="bg-img bg-img--4-3" style="background-image: url({{site.img}}/img.jpg);">
+        <div class="bg-img__content">
+          <div class="boxpad--xl">
+            <h2 class="title title--md text--normal">Download a brochure</h2>
+            <div class="space--sm"></div>
+            <a href="#" class="btn btn--solid">Download</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="boxpad--xl">
+        <h2 class="title title--md text--normal">Test drive a Lexus RX</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus.</p>
+        <div class="space--sm"></div>
+        <a href="javascript:void(0);" data-modal-item="test-drive" class="js-open-modal btn btn--solid">Book now</a>
+      </div>
+    </div>
+
+  </div>
+</div>

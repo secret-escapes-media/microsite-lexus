@@ -24,6 +24,8 @@
                   {% include modal/content/highlight.html %}
                 {% elsif item.youtube-id %}
                   {% include modal/content/video.html %}
+                {% elsif item.iframe %}
+                  {% include modal/content/form.html %}
                 {% else %}
                   {% include modal/content/text.html %}
                 {% endif %}

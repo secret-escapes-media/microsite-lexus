@@ -1,0 +1,51 @@
+---
+layout: standard
+id: story
+title: Story
+
+banner:
+  title: Story
+  intro: >
+    <p class="text--lg">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum.</p>
+
+story:
+
+  - id: section-1
+    content: >
+      <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+      <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vestibulum id ligula porta felis euismod semper. Donec id elit non mi porta gravida at eget metus. Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui.</p>
+
+  - id: section-2
+    content: >
+      <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+      <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vestibulum id ligula porta felis euismod semper. Donec id elit non mi porta gravida at eget metus. Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui.</p>
+
+  - id: section-3
+    content: >
+      <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+      <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vestibulum id ligula porta felis euismod semper. Donec id elit non mi porta gravida at eget metus. Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui.</p>
+
+  - id: section-4
+    content: >
+      <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+      <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vestibulum id ligula porta felis euismod semper. Donec id elit non mi porta gravida at eget metus. Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui.</p>
+
+
+---
+
+
+<!-- Story -->
+<div class="story container container--xxl vpad--xxl">
+  {% for item in page.story %}
+  <div class="story__section" id="{{item.id}}">
+    <div class="bg-img bg-img--16-9" style="background-image: url({{site.img}}/img.jpg);"></div>
+    <div class="container container--xl vpad--lg">
+      {{item.content}}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+
+
+{% include page/promo-test-drive.html %}
