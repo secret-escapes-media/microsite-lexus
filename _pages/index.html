@@ -1,62 +1,33 @@
 ---
-layout: standard
+layout: overview
 id: overview
 title: Overview
 nav: true
 nav-order: 1
 
 banner:
-  content: >
-    <div class="container text--center">
-      <h1 class="banner-title">Lexus Escapes</h1>
-      <hr class="hr--center">
-      <div class="container container--xl">
-        <p class="text--lg text--normal">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Curabitur blandit tempus porttitor. Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-    </div>
+  title: >
+    Lexus <span class="text--italic">Escapes</span>
+  intro: >
+    <p class="text--xl text--normal space--sm">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. </p>
 
 ---
 
 
 
-<!-- Roadtrip -->
-<div class="container container--xl vpad--xxl">
-
-  <div class="bg-img bg-img--16-9" style="background-image: url('{{site.img}}/content/video.jpg');">
-    <a href="javascript:void(0);" data-modal-item="video-modal-1" class="js-open-modal bg-img__link"></a>
-    <div class="bg-img__content">
-      <div class="bg-img__play">
-        <img src="{{site.img}}/icons/play.svg" alt="Play" width="100%">
+<!-- Roadtrips -->
+<div class="">
+  <div class="container">
+    <div class="roadtrip-links">
+      <div class="row row--4-4-4 row--no-gutters">
+        {% assign roadtrips = site.html_pages | where: 'group-parent', 'roadtrips' | sort: 'group-order' %}
+        {% for roadtrip in roadtrips %}
+          <div class="col">
+            {% include page/roadtrip-tile.html %}
+          </div>
+        {% endfor %}
       </div>
     </div>
-    <div class="bg-img__bg-overlay"></div>
-  </div>
-
-  <div class="space--sm"></div>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis a laborum, amet repellat, quasi exercitationem laboriosam quisquam officia voluptatem officiis magnam perferendis iste dolor dolore ipsa illo non pariatur cumque quod delectus nostrum rem facilis! Ipsum, nostrum debitis illum voluptas ad molestias.</p>
-  <div class="space--sm"></div>
-  <a href="{{site.baseurl}}/family-getaway" class="btn btn--solid">Follow the journey</a>
-
-</div>
-
-
-
-<!-- Roadtrips -->
-<div class="bg--grey-lightest vpad--xxl">
-  <div class="container">
-
-    <h2 class="title title--lg text--center">Roadtrips</h2>
-    <div class="space--lg"></div>
-
-    <div class="row row--4-4-4">
-      {% assign roadtrips = site.html_pages | where: 'group-parent', 'roadtrips' | sort: 'group-order' %}
-      {% for roadtrip in roadtrips %}
-        <div class="col">
-          {% include page/roadtrip-tile.html %}
-        </div>
-      {% endfor %}
-    </div>
-
   </div>
 </div>
 

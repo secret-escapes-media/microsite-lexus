@@ -2,126 +2,199 @@
 
 
 
+
 // OVERVIEW PAGE
+.roadtrip-links {
+  position: relative;
+  margin-top: -2em;
+  border: 4px solid $white;
+  background-color: $white;
+  padding-bottom: $s8;
+}
 .roadtrip-tile {
   @include transition;
+  @include background-attributes;
+  border: 4px solid $white;
   transform: scale(1);
-  &:hover {
-    transform: scale(1.05);
+  position: relative;
+  z-index: 1;
+  &:hover { transform: scale(1.05); z-index: 2; }
+  &:before {
+    content: "";
+    display: block;
+    width: 100%;
+    padding-top: 133.33333%;
+  }
+  &__link {
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    z-index: 10;
+  }
+  &__content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  &__overlay {
+    @include transition;
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    z-index: -1;
+    background-color: rgba($grey-darkest,.2);
+  }
+  &:hover &__overlay { background-color: rgba($grey-darkest,.5); }
+  // large version
+  &--lg {
+    &:before {
+      padding-top: 50%;
+    }
   }
 }
 
 
+
+
 // ROADTRIP PAGE
+
 .roadtrip {
-
-  // custom banner for roadtrip page
-  &-banner {
-    &.is-active { display: flex; }
-    display: none;
-    position: relative;
-    z-index: 10;
-    align-items: center;
-    flex-direction: column;
-    justify-content: flex-start;
-    height: 100%;
-    min-height: 850px;
-    color: $white;
-    background-color: $grey-darkest;
-    &__wrap {
-      position: relative;
-      z-index: $z-content-upper;
-      display: flex;
-      width: 100%;
-      flex-grow: 1;
-      flex-direction: column;
-      justify-content: center;
-      overflow: hidden;
-      @include page-padding;
-    }
-    &__bg {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      z-index: $z-content;
-      background-color: $grey-darkest;
-      @include background-attributes;
-    }
+  $core-nav-height:     70px;
+  $core-nav-height-sm:  54px;
+  $site-nav-height:    56px;
+  $site-nav-height-sm: 44px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: scroll;
+  @include bp($xl){
+    flex-direction: row-reverse;
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
   }
 
-  // roadtrip journey
-  &-route {
-    position: absolute;
-    z-index: 5;
-    height: 100%;
+  // roadtrip stop container
+  &__content {
+    display: block;
     width: 100%;
-    top: 0;
-    left: 0;
-    &__navigation {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      text-align: center;
-      margin-bottom: 1em;
-    }
-    &__prev, &__next {
-      background-color: $grey-darkest;
-      height: 4em; width: 4em;
-      display: inline-block;
-      padding: 1em;
-      margin: 1em;
-      & img { height: 100%; }
+    position: relative;
+    box-shadow: 0 0 100px 0 rgba($grey-dark,0.5);
+    @include bp($xl){
+      height: 100%;
+      width: 66.667%;
+      max-width: 960px;
     }
   }
-
-  // roadtrip stop or page on journey
-  &-page {
+  // roadtrip stop
+  &__stop {
     &.is-current { display: flex; }
     display: none;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    flex-grow: 1;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background: $white;
-    // content
-    &__content {
-      flex: 0 0 60%;
-      max-width: 60%;
-    }
-    &__gallery {
-      display: flex;
-      flex: 0 0 40%;
-      max-width: 40%;
-      flex-direction: column;
+    background-color: $white;
+    flex-direction: column;
+    @include bp($xl){
+      padding-top: $site-nav-height;
+      position: absolute;
       height: 100%;
-      overflow: hidden;
-      &-map {
-        height: 70%;
-      }
-      &-images {
-        height: 30%;
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-      }
-      &-image {
-        width: 50%;
-        height: 100%;
-      }
-      &-map,
-      &-image {
-        @include background-attributes;
-      }
+      width: 100%;
+      overflow: scroll;
     }
 
+    &-images {}
+    &-content {
+      padding: $s6;
+    }
+    &-title {
+      padding: $s6 0 $s2;
+      margin: 0 $s6;
+      border-bottom: 4px solid $grey-darkest;
+      position: relative;
+    }
+    // intro panel
+    &-intro {
+      @include background-attributes;
+      padding-top: $site-nav-height-sm + $core-nav-height-sm;
+      @include bp($lg){
+        padding-top: $site-nav-height + $core-nav-height;
+      }
+    }
   }
 
+  // roadtrip map
+  &__map {
+    width: 100%;
+    height: 45%;
+    overflow: hidden;
+    @include background-attributes;
+    @include bp($xl){
+      flex-grow: 1;
+      height: 100%;
+      width: auto;
+    }
+  }
+
+  // navigation tiles
+  &__nav-jump {
+    width: 100%;
+    display: block;
+  }
+
+  // roadtrip navigation
+  &__nav {
+    $icon-size: 3em;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    &-prev, &-next {
+      background-color: $grey-darkest;
+      height: $icon-size; width: $icon-size;
+      display: inline-block;
+      background-size: auto 60%;
+      background-position: center;
+      background-repeat: no-repeat;
+      float: left;
+    }
+    &-prev { background-image: url('../img/icons/arrow-left.svg'); }
+    &-next { background-image: url('../img/icons/arrow-right.svg'); margin-left: 0.5em; }
+  }
+
+}
+
+// custom banner for roadtrip page
+.roadtrip-banner {
+  &.is-active { display: flex; }
+  display: none;
+  position: relative;
+  z-index: 10;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+  min-height: 850px;
+  color: $white;
+  background-color: $grey-darkest;
+  &__wrap {
+    position: relative;
+    z-index: $z-content-upper;
+    display: flex;
+    width: 100%;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    @include page-padding;
+  }
+  &__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: $z-content;
+    background-color: $grey-darkest;
+    @include background-attributes;
+  }
 }
 
 

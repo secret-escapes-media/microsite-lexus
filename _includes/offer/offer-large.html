@@ -1,0 +1,42 @@
+<div class="offer offer--lg">
+
+  <a class="offer__link" href="{{offer.link}}"><span class="btn btn--orange">View Offer</span></a>
+
+  <div class="row row--valign-center row--no-gutters">
+
+
+    <div class="col col--xl-6">
+      <div class="bg-img bg-img--1-1" style="background-image: url('{{site.img}}/offers/{{offer.id}}.jpg')"></div>
+    </div>
+
+
+    <div class="col col--xl-6">
+      <div class="boxpad--xl">
+        <h3 class="core-title core-title--xs">{{offer.title}}</h3>
+        <h4 class="offer__location">{{offer.location}}</h4>
+        <div class="offer__description">{{offer.description}}</div>
+
+        <div class="offer__bottom">
+
+          <div>From <span class="offer__price">£{{offer.price}}</span> 
+          <span class="text--sm">{{offer.price-description}}</span> </div>
+
+          <div class="offer__bottom-right">
+            <div class="offer__arrow"></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+</div>
+
+
+
+
+
+
+

@@ -1,10 +1,16 @@
-<div class="roadtrip-tile bg-img bg-img--3-4" style="background-image: url({{site.img}}/content/{{roadtrip.id}}/banner.jpg);">
-  <a href="{{site.baseurl}}{{roadtrip.url}}" class="bg-img__link"></a>
-  <div class="bg-img__content text--white">
-    <div class="boxpad--sm">
-      <h3 class="title title--md text--normal">{{roadtrip.title}}</h3>
-      <div class="space--xxs"></div>
-      <div class="title title--xxxxs text--normal text--upper text--wide-kern">{{roadtrip.roadtrip.location}}</div>
+
+<div class="roadtrip-tile{% if include.large %} roadtrip-tile--lg{% endif %}" style="background-image: url({{site.img}}/content/{{roadtrip.id}}/banner.jpg);">
+  <a href="{{site.baseurl}}{{roadtrip.url}}" class="roadtrip-tile__link"></a>
+  <div class="roadtrip-tile__content text--white">
+    <div class="boxpad--lg">
+
+      {% if roadtrip.roadtrip.length %}
+        <div class="title title--xxxxs text--normal text--upper text--wide-kern">{{roadtrip.roadtrip.length}} Miles of</div>
+        <div class="space--xxs"></div>
+      {% endif %}
+      <h3 class="title title--lg text--bolder text--upper">{{roadtrip.title}}</h3>
+
     </div>
   </div>
+  <div class="roadtrip-tile__overlay"></div>
 </div>

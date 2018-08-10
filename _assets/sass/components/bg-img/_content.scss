@@ -26,6 +26,7 @@
     color: $white;
     text-align: center;
     @include page-padding;
+    & .title { color: $white; }
   }
   &__bg-overlay {
     position: absolute;

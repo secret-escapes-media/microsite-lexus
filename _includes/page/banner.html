@@ -1,21 +1,22 @@
-<div class="banner">
-  <div class="site-header__offset"></div>
-  <div class="banner__bg" style="background-image: url('{{site.img}}/content/{{page.id}}/banner.jpg')"></div>
-  <div class="banner__wrap">
-    {% if page.banner.content %}
-      {{page.banner.content | liquify}}
-    {% else %}
-      <div class="container container--no-padding text--center">
-        {% if page.banner.title-sup %}<h2 class="sub-title">{{page.banner.title-sup}}</h2>{% endif %}
-        <h1 class="banner-title">{% if page.banner.title %}{{page.banner.title}}{% else %}{{page.title}}{% endif %}</h1>
-        {% if page.banner.title-sub %}<h2 class="sub-title">{{page.banner.title-sub}}</h2>{% endif %}
-        {% if page.banner.intro %}
-        <div class="container container--xxl">
-          <hr class="hr--center">
-          <p>{{page.banner.intro}}</p>
+
+<div class="site-header__offset"></div>
+<div class="site-nav__offset"></div>
+<div class="sub-banner">
+  <div class="sub-banner__bg" style="background-image: url('{{site.img}}/content/{{page.id}}/banner.jpg')"></div>
+  <div class="sub-banner__wrap">
+
+      <div class="container">
+        <div class="sub-banner__content">
+          <h2 class="sub-title"><a href="{{site.baseurl}}" class="text--upper text--wide-kern">Lexus Escapes</a></h2>
+          <h1 class="banner-title sub-banner__content-title">{% if page.banner.title %}{{page.banner.title}}{% else %}{{page.title}}{% endif %}</h1>
+          {% if page.banner.title-sub %}<h2 class="sub-title">{{page.banner.title-sub}}</h2>{% endif %}
+          {% if page.banner.intro %}
+          <div class="width width--xxl">
+            <p>{{page.banner.intro}}</p>
+          </div>
+          {% endif %}
         </div>
-        {% endif %}
       </div>
-    {% endif %}
+
   </div>
 </div>

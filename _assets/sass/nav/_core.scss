@@ -37,10 +37,7 @@ $core-nav-padding-sm: 1rem;
 
 .site-header.is-minimised {
   top: -54px;
-  @include bp($md){
-    top: -70px;
-  }
-  & .site-nav { background-color: $grey-darkest; }
+  @include bp($md){ top: -70px; }
 }
 
 

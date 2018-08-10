@@ -1,0 +1,56 @@
+
+<div class="roadtrip__stop" data-stop-id="{{stop.id}}">
+
+  <!-- roadtrip title + nav -->
+  <div class="roadtrip__stop-title">
+    <span class="title title--xxs text--upper text--wide-kern text--bold">{{page.title}}</span>
+    <div class="roadtrip__nav">
+      <a href="javascript:void(0);" class="roadtrip__nav-prev"></a>
+      <a href="javascript:void(0);" class="roadtrip__nav-next"></a>
+    </div>
+  </div>
+
+  <!-- images -->
+  <div class="roadtrip__stop-images">
+    {% if stop.layout == 'one-col' %}
+      <div class="bg-img bg-img--21-9" style="background-image: url({{site.img}}/content/{{page.id}}/roadtrip/{{stop.id}}-1.jpg);"></div>
+    {% elsif stop.layout == 'three-col' %}
+      <div class="row row--constant-4-4-4 row--no-gutters">
+        <div class="col">
+          <div class="bg-img bg-img--1-1" style="background-image: url({{site.img}}/content/{{page.id}}/roadtrip/{{stop.id}}-1.jpg);"></div>
+        </div>
+        <div class="col">
+          <div class="bg-img bg-img--1-1" style="background-image: url({{site.img}}/content/{{page.id}}/roadtrip/{{stop.id}}-2.jpg);"></div>
+        </div>
+        <div class="col">
+          <div class="bg-img bg-img--1-1" style="background-image: url({{site.img}}/content/{{page.id}}/roadtrip/{{stop.id}}-3.jpg);"></div>
+        </div>
+      </div>
+    {% else %}
+      <div class="row row--constant-6-6 row--no-gutters">
+        <div class="col">
+          <div class="bg-img bg-img--4-3" style="background-image: url({{site.img}}/content/{{page.id}}/roadtrip/{{stop.id}}-1.jpg);"></div>
+        </div>
+        <div class="col">
+          <div class="bg-img bg-img--4-3" style="background-image: url({{site.img}}/content/{{page.id}}/roadtrip/{{stop.id}}-2.jpg);"></div>
+        </div>
+      </div>
+    {% endif %}
+  </div>
+
+  <div class="roadtrip__stop-content">
+
+    <!-- stop title -->
+    <h2 class="title title--xl text--upper">
+      {{forloop.index}} <span class="text--bold">{{stop.title}}</span>
+    </h2>
+
+    {{stop.content}}
+
+    <!-- progress -->
+    <hr class="hr--thick">
+    <span class="title title--xxxs text--bold">You are {{stop.progress}} miles through this {{roadtrip.length}} mile route </span>
+    <p class="text--sm">The mileage is estimated for guidance only. Please check exact directions and traffic conditions before you begin your journey</p>
+
+  </div>
+</div>

@@ -12,6 +12,9 @@
   border-radius: 3px;
   cursor: pointer;
   @include transition;
+
+  & + & { margin-left: 0.5em; }
+
   &--sm { padding: $s1 $s4; font-size: $s-2; }
   &--lg { padding: $s3 $s8; font-size: $s-1; }
 
@@ -20,6 +23,9 @@
   }
   &--solid { background-color: $b-navy;
     &:hover { background-color: darken($b-navy,10); }
+  }
+  &--white { background-color: $white; color: $grey-darkest;
+    &:hover { background-color: darken($white,10); }
   }
 
 
@@ -44,6 +50,13 @@
     &:hover {
       background-color: $orange;
       &:before { border-color: $orange; }
+    }
+  }
+  &--outline-white {
+    &:before { border-color: $white; }
+    &:hover {
+      background-color: $white; color: $grey-darkest;
+      &:before { border-color: $white; }
     }
   }
 }

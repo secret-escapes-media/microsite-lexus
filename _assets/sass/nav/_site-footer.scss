@@ -1,10 +1,10 @@
 // moidifiers for the site footer theme, is passed as an option on include
 
-$footer-nav-color: $grey;
+$footer-nav-color: $white;
 
 .site-nav {
   &--footer {
-    background-color: rgba($footer-nav-color,.8);
+    background-color: darken($footer-nav-color,10);
     &:before { background-image: url("../img/icons/nav-arrow-footer.svg"); }
   }
   &--footer &__link {

@@ -1,29 +1,11 @@
 ---
 layout: default
 ---
-
-{% include page/header.html class="roadtrip" %}
-
 {% assign roadtrip = page.roadtrip %}
 
-<!-- BANNER -->
-<div class="roadtrip-banner is-active">
-  <div class="roadtrip-banner__wrap">
-    <div class="container text--center">
 
-      <h1 class="banner-title">{{page.title}}</h1>
-      <h4 class="sub-title">{{roadtrip.location}}</h4>
-      <hr class="hr--center">
-      <div class="container container--xl text--normal">
-        {{page.intro}}
-      </div>
-      <div class="space--sm"></div>
-      <a href="#" class="js-roadtrip-start btn btn--solid">Start your engines</a>
 
-    </div>
-  </div>
-  <div class="roadtrip-banner__bg" style="background-image: url({{site.img}}/content/{{page.id}}/banner.jpg);"></div>
-</div>
+{% include page/header.html class="roadtrip" %}
 
 
 
@@ -31,70 +13,21 @@ layout: default
 <div class="content-spacing section-spacing">
 
   <!-- ROADTRIP -->
-  <div class="roadtrip-route">
+  <div class="roadtrip" data-roadtrip-id="{{page.id}}" data-current-stop="0">
+
+    <div class="roadtrip__map" id="map"></div>
+
     <!-- ROADTRIP STOPS -->
-    {% for stop in roadtrip.stops %}
-      <div class="roadtrip-page{% if forloop.first %} is-active{% endif %}">
+    <div class="roadtrip__content">
 
-        <div class="roadtrip-page__content">
-          <div class="boxpad--xl">
-            <div class="container container--xl container--no-padding">
-              <h6 class="title title--xxxs text--upper text--wide-kern text--bold">{{page.title}}</h6>
-              <div class="vpad--xxs">
-                <h2 class="title title--xl text--bold">{{stop.title}}</h2>
-              </div>
-              <h6 class="title title--xxxs text--upper text--wide-kern text--bold">Stop {{forloop.index}}</h6>
-              <div class="space--sm"></div>
+      {% include roadtrip/intro.html %}
 
-              <p>{{stop.content}}</p>
-              <hr>
-              <p>You are {{stop.progress}} miles through this {{roadtrip.length}} mile route </p>
-              <p class="text--sm">The mileage is estimated for guidance only. Please check exact directions and traffic conditions before you begin your journey</p>
+      {% for stop in roadtrip.stops %}
+        {% include roadtrip/stop.html %}
+      {% endfor %}
 
-            </div>
-          </div>
-        </div>
+      {% include roadtrip/end.html %}
 
-        <div class="roadtrip-page__gallery">
-
-          <div class="roadtrip-page__gallery-map" style="background-image: url({{site.img}}/map.jpg);"></div>
-          <div class="roadtrip-page__gallery-images">
-            <div class="roadtrip-page__gallery-image" style="background-image: url({{site.img}}/img.jpg);"></div>
-            <div class="roadtrip-page__gallery-image" style="background-image: url({{site.img}}/img.jpg);"></div>
-          </div>
-        </div>
-
-      </div>
-    {% endfor %}
-
-    <!-- ROADTRIP LAST PAGE -->
-    <div class="roadtrip-page">
-      <div class="roadtrip-page__content">
-
-        <div class="boxpad--xl">
-          <div class="container container--xl container--no-padding">
-
-            <h4 class="title title--bold title--lg">Book a test drive</h4>
-            <div class="space--xxs"></div>
-            <p>Cras mattis consectetur purus sit amet fermentum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. </p>
-            <div class="space--sm"></div>
-            <a href="#" class="btn btn--solid">Book now</a>
-
-          </div>
-        </div>
-      </div>
-      <div class="roadtrip-page__gallery" style="background-image: url({{site.img}}/img.jpg);">
-      </div>
-    </div>
-
-    <!-- NAVIGATION -->
-    <div class="roadtrip-route__navigation">
-      <a href="#" class="roadtrip-route__prev">
-        <img src="{{site.img}}/icons/arrow-left.svg" alt="Previous">
-      </a>
-      <a href="#" class="roadtrip-route__next">
-        <img src="{{site.img}}/icons/arrow-right.svg" alt="Next">
-      </a>
     </div>
 
   </div>
@@ -102,4 +35,3 @@ layout: default
 </div>
 
 
-{% include page/promo-test-drive.html %}

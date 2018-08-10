@@ -4,6 +4,7 @@
 
   // custom content headline
   font-family: $font-title-01;
+  color: $grey-darkest;
   line-height: 1.1;
   &--xxxl   { font-size: $s8; }
   &--xxl    { font-size: $s7; }
@@ -81,8 +82,9 @@
   font-family: $font-title-01;
   font-size: $s5;
   line-height: 1;
-  font-weight: 500;
+  font-weight: 700;
+  text-transform: uppercase;
   @include bp($md){ font-size: $s7; }
-  @include bp($xl){ font-size: $s11; }
+  @include bp($xl){ font-size: $s10; }
 
 }

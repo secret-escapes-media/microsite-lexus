@@ -1,0 +1,23 @@
+
+<div class="roadtrip__stop roadtrip__stop-intro is-current" style="background-image: url({{site.img}}/content/{{page.id}}/banner.jpg);">
+  <!-- ROADTRIP INTRO PAGE -->
+
+  <div class="roadtrip__stop-content text--white">
+
+    <h2 class="title title--xxxl text--upper text--bold">{{page.title}}</h2>
+    <hr class="hr--thick">
+    {{page.intro}}
+    <hr class="hr--thick">
+    <div class="space--sm"></div>
+    <div class="row row--6-6 row--gutters-sm">
+      {% for stop in roadtrip.stops %}
+      <div class="col">
+        <a href="javascript:void(0);" data-stop-link="{{forloop.index}}" data-stop-id="{{stop.id}}" class="roadtrip__nav-jump boxpad--lg bg--grey-darkest">
+          <div class="title title--xxxs text--upper">{{forloop.index}} <span class="text--bold">{{stop.title}}</span></div>
+        </a>
+      </div>
+    {% endfor %}
+    </div>
+
+  </div>
+</div>

@@ -12,7 +12,7 @@
   color: $white;
   background-color: $grey;
   @include bp($lg){
-    height: 80%;
+    height: 95%;
     min-height: 650px;
     max-height: none;
   }
@@ -27,6 +27,12 @@
     overflow: hidden;
     @include page-padding;
   }
+  &__content {
+    border-top: 4px solid $white;
+    padding-top: 1em;
+    float: left;
+  }
+
   &__bg {
     position: absolute;
     top: 0;
@@ -36,27 +42,54 @@
     z-index: $z-content;
     background-color: $grey-dark;
     @include background-attributes;
-    // &:before {
-    //   // optional colour overlay on bg image
-    //   content: '';
-    //   position: absolute;
-    //   top: 0;
-    //   left: 0;
-    //   right: 0;
-    //   bottom: 0;
-    //   background-color: rgba($black,.15);
-    // }
   }
-  &__nav {
-    // optional container for navigation include
-    position: absolute;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    z-index: $z-nav;
-    &--top {
-      top: 0;
-      bottom: auto;
+}
+
+.sub-banner {
+  margin-top: $s8;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 80%;
+  min-height: 450px;
+  max-height: 700px;
+  color: $white;
+  background-color: $white;
+  @include bp($lg){
+    height: 65%;
+    min-height: 650px;
+    max-height: none;
+  }
+  &__wrap {
+    position: relative;
+    z-index: $z-content-upper;
+    display: flex;
+    width: 100%;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    @include page-padding;
+  }
+  &__content {
+    float: left;
+    &-title {
+      border-top: 4px solid $white;
+      margin-top: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
     }
+  }
+  &__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: $s8;
+    bottom: 0;
+    z-index: $z-content;
+    background-color: $grey-dark;
+    @include background-attributes;
   }
 }
