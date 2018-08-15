@@ -7,7 +7,7 @@ nav: true
 nav-order: 3
 
 intro: >
-  <p class="text--xl">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+  <p class="text--xl">Discover the finest road trips in Britain and unlock the great outdoors. Whether you’re looking for secluded Cornish beaches or wild Highland crags, one thing is certain; unforgettable adventures await...</p>
 
 ---
 
@@ -18,23 +18,21 @@ intro: >
 
 <div class="vpad--xxl">
 
-  <div class="container">
-    <div class="row">
-      {% assign hero-roadtrip = site.html_pages | where: 'id', 'family-getaway' %}
-      {% for roadtrip in hero-roadtrip %}
-        <div class="col col--12">
-          {% include page/roadtrip-tile.html large="true" %}
-        </div>
-      {% endfor %}
-    </div>
-  </div>
-
-  <div class="container">
-    <div class="row row--4-4-4">
+  <div class="container container--xxl">
+    <div class="row row--4-4-4 row--no-gutters">
       {% assign roadtrips = site.html_pages | where: 'group-parent', page.id | sort: 'group-order' %}
       {% for roadtrip in roadtrips %}
         <div class="col">
           {% include page/roadtrip-tile.html %}
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="row">
+      {% assign hero-roadtrip = site.html_pages | where: 'id', 'the-family-escape' %}
+      {% for roadtrip in hero-roadtrip %}
+        <div class="col col--12">
+          {% include page/roadtrip-tile--lg.html %}
         </div>
       {% endfor %}
     </div>

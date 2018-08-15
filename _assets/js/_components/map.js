@@ -84,9 +84,10 @@ if( $('#map').length ){
     // builds map with custom functionality
     map.on('load', function(event) {
 
+
       // apply route to map
       getRoute();
-
+      
       ///////////// adds highlights markers to the map
       map.addLayer({
         id: 'stops',

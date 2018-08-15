@@ -23,7 +23,8 @@ function modalOpen(event, modalId){
 
     event.preventDefault();
     var modalItemID   = $(event.currentTarget).data('modal-item'),
-        modalItem = '.modal__item--' + modalItemID;
+        modalItem = '.modal__item--' + modalItemID,
+        modalVideoId = $(modalItem).data('video-id');
 
     // if group create carousel modal
     if ( $(event.currentTarget).attr('data-modal-group') ) {
@@ -32,8 +33,7 @@ function modalOpen(event, modalId){
     }
 
     // update video
-    if( $(event.currentTarget).attr('data-video-id') ){
-      var modalVideoId = $(event.currentTarget).data('video-id');
+    if( $(modalItem).attr('data-video-id') ){
       $('#modal-video__'+modalItemID).attr('src', 'https://www.youtube.com/embed/' + modalVideoId + '?enablejsapi=1&controls=1&rel=0&showinfo=0&modestbranding=1');
     }
 
@@ -86,7 +86,7 @@ function modalClose(event){
   });
 
   // disable video
-  $('.modal__item.is-open .modal__iframe').attr('src','');
+  $('.modal-video__iframe').attr('src','');
 
 }
 

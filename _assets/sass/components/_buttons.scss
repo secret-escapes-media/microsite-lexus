@@ -21,8 +21,11 @@
   &--orange { background-color: $orange;
     &:hover { background-color: $orange-dark; }
   }
-  &--solid { background-color: $b-navy;
+  &--primary { background-color: $b-navy;
     &:hover { background-color: darken($b-navy,10); }
+  }
+  &--invert { color: $b-navy; background-color: rgba($white,0.9);
+    &:hover { background-color: rgba($white,1); }
   }
   &--white { background-color: $white; color: $grey-darkest;
     &:hover { background-color: darken($white,10); }

@@ -17,6 +17,7 @@
             <div
               class="modal__item modal__item--{{item.id}} is-closed"
               id="modal-{{item.id}}"
+              {% if item.youtube-id %}data-video-id="{{item.youtube-id}}"{% endif %}
               {% if item.page %}data-group-page="{{item.page}}"{% endif %}
               {% if item.section %}data-group-section="{{item.section}}"{% endif %}>
               <div class="modal__content">

@@ -325,7 +325,7 @@ var mapData = {
 
     },
     {
-      "id": "scottish-highlands",
+      "id": "highlands",
       "type": "FeatureCollection",
       "center": [-4.44946,58.21702],
       "features": [

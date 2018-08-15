@@ -28,7 +28,7 @@
     @include page-padding;
     & .title { color: $white; }
   }
-  &__bg-overlay {
+  &__overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -38,7 +38,7 @@
     background-color: rgba($black,.4);
     @include transition;
   }
-  &:hover &__bg-overlay { background-color: rgba($black,.6); }
+  &:hover &__overlay { background-color: rgba($black,.6); }
 
   &__play {
     @include transition;

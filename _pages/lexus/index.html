@@ -1,35 +1,57 @@
 ---
 layout: standard
 id: lexus
-title: Lexus
+title: Lexus RX
 nav: true
 nav-order: 4
 content-pages: true
 
 intro: >
-  <p class="text--xl">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum.</p>
+  <p class="text--xl">Discover the Lexus RX, your new luxury road trip SUV. Whether you’re set for challenging mountain passes or wish to sail down picturesque country lanes, unpick the beauty of the british landscape in a car built for fortuitous escapes. A self-charging hybrid with a multitude of features, it’s the perfect vehicle for adventure – find out more below and book your unique 24-hour test drive today.</p>
+  <div class="space--xs"></div>
+  <a href="#test-drive" class="btn btn--primary">Book a test drive</a>
 
 features:
 
-  - id: feature-1
+  - id: self-charging-hybrid
     title: Self-Charging Hybrid
-    content: Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nulla vitae elit libero, a pharetra augue.
+    content: Through the near perfect distribution of its two power sources, the RX 450h provides driving comfort and agility, together with lower emissions and fuel consumption. With Lexus Self-Charging Hybrid you’re always charged, always ready to go.
+    button: Find out more
+    link: "#link"
 
-  - id: feature-2
-    title: Luxury interiors
-    content: Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nulla vitae elit libero, a pharetra augue.
+  - id: handcrafted-interiors
+    title: Handcrafted Interiors
+    content: The finish of the Lexus RX central console and door trim resets the standard of luxury you should expect in an SUV. Takumi craftsmanship extends to the whole cabin, where years of exacting artisanship offers unmatched design crafted by hand.
+    button: Find out more
+    link: "#link"
 
-  - id: feature-3
-    title: Adaptive Variable Suspension
-    content: Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nulla vitae elit libero, a pharetra augue.
-
-  - id: feature-3
+  - id: lexus-premium-navigation
     title: Lexus Premium Navigation
-    content: Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nulla vitae elit libero, a pharetra augue.
+    content: Remarkably easy to use, the Lexus Premium Navigation offers a multitude of features to make your journey seamless from start to end. All you need to decide is where your adventure will take you.
+    button: Find out more
+    link: "#link"
 
-  - id: feature-3
+  - id: lexus-safety-system
     title: Lexus Safety System
-    content: Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nulla vitae elit libero, a pharetra augue.
+    content: Myriad safety features make the new Lexus RX perfect for family getaways. Adaptive cruise control and pre-crash safety, lane keep assist and other warning systems all contribute to keeping you safe.
+    button: Find out more
+    link: "#link"
+
+  - id: lexus-rx-l
+    title: Lexus RX L
+    content: Discover the luxurious seven-seat crossover, the RX L. All the features and stylings of the RX, now with more space for those big adventures.
+    button: Find out more
+    link: "#link"
+
+  - id: configurator
+    title: Configurator
+    content: With a range of equipment and various options, including F&nbsp;SPORT, you'll be able to build the RX that's perfect for you. Visit the website to start configuring your perfect version of the RX.
+    button: Build your RX
+    link: "#link"
+
+sign-up:
+  title: Stay up to date
+  content: To stay updated on the latest Lexus news, offers and receive exclusive invitations sign up to the Lexus newsletter.
 
 ---
 
@@ -45,41 +67,57 @@ features:
     {% for feature in page.features %}
       <div class="bob{% cycle "", " bob--swap"%}">
         <div class="bob__img">
-          <div class="bg-img bg-img--16-9" style="background-image: url({{site.img}}/img.jpg);"></div>
+          <a href="{{feature.link}}" target="_blank" id="tracking-lexus-feature-{{feature.id}}-image" class="bg-img bg-img--16-9" style="background-image: url({{site.img}}/content/{{page.id}}/{{feature.id}}.jpg);"></a>
         </div>
         <div class="bob__text">
-          <h4 class="title title--md text--normal">{{feature.title}}</h4>
+          <h4 class="title title--md text--bold text--normal">{{feature.title}}</h4>
+          <div class="space--xs"></div>
+          <p class="text--lg">{{feature.content}}</p>
           <div class="space--sm"></div>
-          {{feature.content}}
+          <a href="{{feature.link}}" target="_blank" id="tracking-lexus-feature-{{feature.id}}-btn" class="btn btn--primary btn--sm">{{feature.button}}</a>
         </div>
       </div>
-      {% unless forloop.last %} <div class="space--xl"></div> {% endunless %}
+      {% unless forloop.last %} <div class="space--xxl"></div> {% endunless %}
     {% endfor %}
   </div>
 </div>
 
 
-<div class="container container--no-padding container--100">
-  <div class="row row--6-6 row--no-gutters row--valign-center text--center">
 
-    <div class="col">
-      <div class="bg-img bg-img--4-3" style="background-image: url({{site.img}}/img.jpg);">
-        <div class="bg-img__content">
-          <div class="boxpad--xl">
-            <h2 class="title title--md text--normal">Download a brochure</h2>
-            <div class="space--sm"></div>
-            <a href="#" class="btn btn--solid">Download</a>
-          </div>
-        </div>
+<div class="bg--white vpad--xxl">
+  <div class="container container--xxl text--center">
+    <h4 class="title title--md text--bold text--upper">{{page.sign-up.title}}</h4>
+    <p class="text--lg">{{page.sign-up.content}}</p>
+    <div class="space--sm"></div>
+    <a href="#" class="btn btn--primary">Sign up now</a>
+  </div>
+</div>
+
+
+
+<div class="container container--no-padding container--100 bg--grey-lightest">
+  <div id="test-drive"></div>
+  <div class="row row--no-gutters row--valign-center text--center">
+
+    <div class="col col--7">
+      <div class="container container--xl boxpad--xl">
+        <h2 class="title title--lg text--bold text--normal">Test drive the Lexus RX or the<br /> new seven-seat Lexus RX L</h2>
+        <p class="text--lg text--normal">Discover the self-charging hybrid Lexus RX, or for those big adventures, the Lexus RX L – now available for 24-hour test drives. Don’t miss your Lexus RX adventure...</p>
+        <div class="space--sm"></div>
+        <a href="javascript:void(0);" data-modal-item="test-drive" class="js-open-modal btn btn--primary">Book now</a>
       </div>
     </div>
 
-    <div class="col">
-      <div class="boxpad--xl">
-        <h2 class="title title--md text--normal">Test drive a Lexus RX</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus.</p>
-        <div class="space--sm"></div>
-        <a href="javascript:void(0);" data-modal-item="test-drive" class="js-open-modal btn btn--solid">Book now</a>
+    <div class="col col--5">
+      <div class="bg-img bg-img--4-3" style="background-image: url({{site.img}}/content/{{page.id}}/brochure.jpg);">
+        <div class="bg-img__content">
+          <div class="container container--xl boxpad--xl">
+            <h2 class="title title--lg text--bold text--normal">Download a brochure</h2>
+            <p class="text--lg text--normal">For more details on the RX line, download the brochure here.</p>
+            <div class="space--sm"></div>
+            <a href="{{site.img}}/lexus-brochure.pdf" class="btn btn--invert">Download</a>
+          </div>
+        </div>
       </div>
     </div>
 

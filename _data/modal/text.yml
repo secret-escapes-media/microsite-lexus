@@ -8,7 +8,7 @@
 
 
 - id: video-modal
-  youtube-id: U-qSEc4Aqm8
+  youtube-id: HffzYTzNtzc
   title: Roadtrip video
   content: Nullam quis risus eget urna mollis ornare vel eu leo. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Sed posuere consectetur est at lobortis.
   pages:
@@ -29,9 +29,7 @@
 - type: roadtrip-offers
   id: cotswolds
   title: Cotswolds
-  content: >
-    Nullam quis risus eget urna mollis ornare vel eu leo. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur.
-  review: Review of this region by George including a flowery description of the hotel. Hotel from roadtrip featured below. Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Donec sed odio dui. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Donec sed odio dui. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+  content: Nullam quis risus eget urna mollis ornare vel eu leo. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Sed posuere consectetur est at lobortis.
   pages:
     - id: family-getaway
 
@@ -40,7 +38,6 @@
   id: peak-district
   title: Peak District
   content: Nullam quis risus eget urna mollis ornare vel eu leo. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Sed posuere consectetur est at lobortis.
-  review: Review of this region by George including a flowery description of the hotel. Hotel from roadtrip featured below
   pages:
     - id: family-getaway
 
@@ -49,6 +46,5 @@
   id: lake-district
   title: Lake District
   content: Nullam quis risus eget urna mollis ornare vel eu leo. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Sed posuere consectetur est at lobortis.
-  review: Review of this region by George including a flowery description of the hotel. Hotel from roadtrip featured below
   pages:
     - id: family-getaway
