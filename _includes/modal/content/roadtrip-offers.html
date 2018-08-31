@@ -1,25 +1,24 @@
 <!-- George summary + hotel stayed in + hotels in the area -->
 <div class="container container--xxl container--no-padding modal__content modal-text bg--white">
 
-  <div class="bg-img bg-img--21-9" style="background-image: url({{site.img}}/content/family-getaway/{{item.id}}.jpg);"></div>
+  <div class="bg-img bg-img--21-9" style="background-image: url({{site.img}}/content/the-family-escape/{{item.id}}.jpg);"></div>
 
   <div class="boxpad--xxl">
 
-    <h3 class="title title--lg text--upper text--bold">{{item.title}}</h3>
+    <h3 class="title title--xl text--upper text--bold">{{item.title}}</h3>
     <hr class="hr--thick">
-    <p class="text--lg">{{item.content}}</p>
+    <p class="text--xl">{{item.content}}</p>
 
 
     <div class="space--xxl"></div>
     <h4 class="title title--md text--normal">Stay where George stayed</h4>
     <div class="space--md"></div>
 
-    {% for offer in site.data.offers %}
-    {% if forloop.first %}
+    {% assign featured-offer = site.data.offers | where: "id", item.offer-id %}
+    {% for offer in featured-offer %}
       <div class="col">
         {% include offer/offer-large.html %}
       </div>
-    {% endif %}
     {% endfor %}
 
 

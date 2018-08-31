@@ -87,7 +87,7 @@ if( $('#map').length ){
 
       // apply route to map
       getRoute();
-      
+
       ///////////// adds highlights markers to the map
       map.addLayer({
         id: 'stops',
@@ -190,6 +190,7 @@ if( $('#map').length ){
     var jump = $('.roadtrip__nav-jump');
     var next = $('.roadtrip__nav-next');
     var prev = $('.roadtrip__nav-prev');
+    var close = $('.roadtrip__nav-close');
     var items = $(document).find('.roadtrip__stop');
     var counter = 0;
     var amount = items.length;
@@ -238,9 +239,13 @@ if( $('#map').length ){
     }
 
     // navigation events
-    next.click(function(ev) { navigate(1); });
-    prev.click(function(ev) { navigate(-1); });
-    jump.click(function(ev) { jumpTo(event); });
+    jump.click(function(event) { jumpTo(event); });
+    next.click(function(event) { navigate(1); });
+    prev.click(function(event) { navigate(-1); });
+    close.click(function(event) {
+      mapReset();
+      jumpTo(event);
+    });
 
     $(document).on('keyup', function(e) {
       if(e.which === 37){

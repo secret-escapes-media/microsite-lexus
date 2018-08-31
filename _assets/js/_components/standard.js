@@ -57,3 +57,17 @@ function queryString(sParam){
     }
   }
 }
+
+
+///////////////////////////////////////
+//   Home page video
+///////////////////////////////////////
+
+$(document).ready(function(){
+  if( $('#banner-video').length ){
+    document.getElementById('banner-video').play();
+    $('.js-open-modal').click(function(){
+      document.getElementById('banner-video').pause();
+    });
+  }
+});

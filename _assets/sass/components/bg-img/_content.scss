@@ -2,7 +2,6 @@
 
 .bg-img {
   // Vertically centered content in bg-image
-  background-color: $grey-dark;
   @include transition;
   &__link {
     position: absolute;

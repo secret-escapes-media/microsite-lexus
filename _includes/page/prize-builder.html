@@ -1,0 +1,58 @@
+
+<div class="prize-builder">
+  <div class="prize-builder__steps text--center">
+
+    {% for step in page.prize-builder.steps %}
+    <div class="prize-builder__step{% if forloop.first %} is-active{% endif %}" data-step="{{step.index}}">
+
+      <span class="title title--md text--bold">{{step.title}}</span>
+      <div class="space--sm"></div>
+
+      <div class="row row--6-6 row--no-gutters">
+        {% for option in step.options %}
+        <div class="col">
+          <a href="javascript:void(0);" class="bg-img bg-img--4-3 bg-img--xl-1-1 prize-builder__option" data-option="{{option.id}}" data-step="{{step.index}}" style="background-image: url({{site.img}}/content/competition/builder/{{option.id}}.jpg);">
+            <div class="bg-img__content text--white">
+              <span class="title title--sm text--bolder text--upper">{{option.title}}</span>
+            </div>
+            <div class="bg-img__overlay"></div>
+          </a>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+
+  </div>
+
+  <div class="prize-builder__result" data-result-1="" data-result-2="" data-result-3="" data-result-4="" data-result-5="" data-result-6="">
+    <div class="container">
+
+      <div class="prize-builder__result-title">
+        <h2 class="title title--lg text--bold">Your dream escape:</h2>
+        <div class="space--xl"></div>
+      </div>
+
+      <div class="row">
+        {% for step in page.prize-builder.steps %}
+          {% for option in step.options %}
+            <div class="col col--4 prize-builder__result-option" data-result-id="{{option.id}}">
+              <div class="bg-img bg-img--16-9" style="background-image: url({{site.img}}/content/competition/builder/{{option.id}}.jpg);"></div>
+              <div class="boxpad--lg bg--grey-lightest">
+                <h4 class="title title--xxs text--bolder">{{option.result-title}}</h4>
+                <p>{{option.result-description}}</p>
+              </div>
+            </div>
+          {% endfor %}
+        {% endfor %}
+      </div>
+
+      <div class="space--xl text--center">
+        <h5 class="title title--md text--bold">All that's left to do is to enter below</h5>
+        <div class="space--lg"></div>
+        <a href="#enter" class="btn btn--primary">Enter now</a>
+      </div>
+    </div>
+  </div>
+
+</div>

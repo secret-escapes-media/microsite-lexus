@@ -62,4 +62,12 @@
       &:before { border-color: $white; }
     }
   }
+  &--outline-primary {
+    color: $b-navy;
+    background-color: transparent;
+    border: 1px solid $b-navy;
+    &:hover {
+      background-color: $b-navy; color: $white;
+    }
+  }
 }

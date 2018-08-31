@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+
+{% include page/header.html %}
+
+{% include page/banner-competition.html %}
+
+<div class="content-spacing section-spacing">
+  <div class="wp" id="main"></div>
+
+
+  <div class="vpad--xxl">
+    <div class="container">
+      {% include page/prize-builder.html %}
+    </div>
+  </div>
+
+  <div class="container container--100 container--no-padding">
+    <div class="row row--constant-4-4-4 row--no-gutters">
+      <div class="col">
+        <div class="bg-img bg-img--3-4 bg-img--lg-4-3" style="background-image: url({{site.img}}/content/competition/1.jpg);"></div>
+      </div>
+      <div class="col">
+        <div class="bg-img bg-img--3-4 bg-img--lg-4-3" style="background-image: url({{site.img}}/content/competition/2.jpg);"></div>
+      </div>
+      <div class="col">
+        <div class="bg-img bg-img--3-4 bg-img--lg-4-3" style="background-image: url({{site.img}}/content/competition/3.jpg);"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="wp" id="enter"></div>
+  <div class="vpad--xxl">
+    <div class="container container--xl text--center">
+      <h2 class="title title--lg text--bold">Enter below for a chance to win</h2>
+      <div class="space--md"></div>
+      <iframe src="https://promotion5447.strutta.me" width="100%" height="700" frameborder="0"></iframe>
+    </div>
+  </div>
+
+  <div class="bg--grey-lightest vpad--xxl">
+    <div class="container container--xxl text--center">
+      <h4 class="title title--md text--bold text--upper">{{page.sign-up.title}}</h4>
+      <p class="text--lg">{{page.sign-up.content}}</p>
+      <div class="space--sm"></div>
+      <a href="{{page.sign-up.link}}" id="tracking-newsletter-another-place-btn" class="btn btn--primary">Sign up now</a>
+    </div>
+  </div>
+
+
+</div>
+
+{% include page/footer.html %}
+

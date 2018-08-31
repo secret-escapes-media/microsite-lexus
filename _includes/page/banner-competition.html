@@ -1,0 +1,28 @@
+
+
+<div class="banner banner--competition">
+  <div class="site-header__offset"></div>
+  <div class="banner__bg" style="background-image: url('{{site.img}}/content/{{page.id}}/banner.jpg')"></div>
+  <div class="banner__wrap">
+
+    <div class="container text--center text--white">
+
+      <span class="sub-title"><a href="{{site.baseurl}}" class="text--upper text--wide-kern">Lexus Escapes</a></span>
+      <hr class="hr--thick hr--center">
+      <h1 class="competition-title">{% if page.banner.title %}{{page.banner.title}}{% else %}{{page.title}}{% endif %}</h1>
+      <div class="space--md"></div>
+      <a href="#enter" class="btn btn--invert">Enter now</a>
+      <div class="space--md"></div>
+    </div>
+
+    <div class="banner__bottom-content">
+      <div class="container container--xl text--center">
+        {{page.banner.intro}}
+        <div class="space--sm"></div>
+        <a href="#main" class="banner__jump-down"></a>
+      </div>
+    </div>
+
+  </div>
+
+</div>

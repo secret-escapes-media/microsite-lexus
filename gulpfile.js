@@ -70,7 +70,7 @@ gulp.task('watch-js', ['build-js'], function() {
 
 // watch for images
 gulp.task('watch-images', ['build-images'], function() {
-  gulp.watch(['_assets/img/**/*.*'], ['build-images'])
+  gulp.watch(['_assets/img/**/*.*','!_assets/img/content/overview/video.mp4'], ['build-images'])
     // updates the compiled folder if an image is deleted
     // modified snippet from https://gulpjs.org/recipes/handling-the-delete-event-on-watch
     .on('change', function (event) {
@@ -119,6 +119,7 @@ gulp.task('build-main-js', function(cb) {
     './_assets/js/_components/modal.js',
     './_assets/js/_components/marker-data/stops.js',
     './_assets/js/_components/map.js',
+    './_assets/js/_components/game.js',
     // './_assets/js/_components/sticky-nav.js',
 
     // custom js for project

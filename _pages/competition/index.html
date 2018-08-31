@@ -1,44 +1,103 @@
 ---
-layout: standard
+layout: competition
 id: competition
 title: Compet&shy;ition
 nav: true
 nav-order: 6
 nav-title: Competition
 
-intro: >
-  <p class="text--lg">Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Curabitur blandit tempus porttitor. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+
+
+banner:
+  title: >
+    Drive the Great Outdoors.<br /> Win your Escape to Another Place.
+
+  intro: >
+    <p class="text--lg text--bold">Here’s your chance to win your very own road trip adventure in Britain’s great outdoors. We’re giving away two prize packages filled with unforgettable experiences. Set on the shores of Ullswater in the Lake District, Another Place makes for an enviable stay in this stunning landscape. Get there in the Lexus RX, which you’ll have use of for the duration of your getaway. <span class="text--bolder">Build your dream escape below.</span></p>
+
+
+
+prize-builder:
+  steps:
+
+    - title: Are you going as a couple or taking the family?
+      index: 1
+      options:
+      - title: Couple
+        id: couple
+        result-title: Stay in the Best room
+        result-description: Enjoy a stay in the Best room at Another Place, set in the gorgeous Georgian house on the shores of Ullswater. Perfect for a couples retreat in the sublime Lake District.
+      - title: Family
+        id: family
+        result-title: Stay in the family room
+        result-description: Set in the contemporary wing of Another Place’s Georgian house, family rooms feature lakeside views and enough space for the whole family to relax in the peaceful Lake District.
+
+    - title: Would you like to try the Lexus RX or Lexus RX L?
+      index: 2
+      options:
+        - title: Lexus RX
+          id: rx
+          result-title: Drive the Lexus RX Self-Charging Hybrid
+          result-description: The Lexus RX Self-Charging Hybrid is the perfect vehicle for your escape. Luxury interiors and incredible features will complete your road trip.
+        - title: RX L
+          id: rx-l
+          result-title: Drive the New 7 Seat Lexus RX L
+          result-description: The Lexus RX L is for big adventure. With 7 seats, you’ll have more space for a truly relaxing break. Take the whole family, or take more supplies – your choice.
+
+    - title: Enjoy an activity on your trip – but will you venture into the water or stick to land?
+      index: 3
+      options:
+        - title: Land
+          id: land-sport
+          result-title: Active pursuits
+          result-description: From adventurous cycling across vast peaks, trekking on horseback past lakeside valleys, or, in winter, going off-piste and skiing down Raise fell, stay on dry land for your unique activity.
+        - title: Water
+          id: water-sport
+          result-title: Water experiences
+          result-description: Head out on the water by kayak or paddleboard, or sit back on a sailing boat or Ullswater Steamer to glide across this gorgeous landscape.
+
+    - title: It’s time to relax. Which will be your guilty pleasure?
+      index: 4
+      options:
+        - title: Massage
+          id: massage
+          result-title: Massage
+          result-description: Indulge in a massage and let the aches and strains melt away… Because you deserve it.
+        - title: Beauty treatment
+          id: beauty-treatment
+          result-title: Beauty treatment
+          result-description: Whether you need a facial or a manicure, treat yourself to a beauty fix to complement your luxurious break...
+
+    - title: What time of year would you like to escape?
+      index: 5
+      options:
+        - title: Spring & Summer
+          id: summer
+          result-title: Enjoy the sun shine
+          result-description: Enjoy the Lakes as the sun shines, perfect for a host of activities on the water, long walks in the fells and summer’s night barbecues.
+        - title: Autumn & Winter
+          id: winter
+          result-title: Find a cosy hideaway
+          result-description: Hole yourself up in cosy pubs with roaring fires, embark on bracing walks with winter warmers on your return, and marvel at the unique autumnal colour palette of the beautiful countryside.
+
+    - title: Are you ready to brave the lakes or would you rather relax in the pool?
+      index: 6
+      options:
+        - title: Lake
+          id: lake
+          result-title: Cumbria’s lakes
+          result-description: From tentative toe-dips to a brave spot of wild swimming, nothing matches the feeling of throwing yourself in the the slightly freezing waters of Cumbria’s lakes...
+        - title: Pool
+          id: pool
+          result-title: Another Place's pool
+          result-description: Enjoy all the glorious views but from the warm haven of Another Place’s glorious pool. No cold here, just easy swimming with an incredible view of the fells from the floor to ceiling windows...
+
+
+
+sign-up:
+  title: Stay up to date with Another Place
+  content: Sign up to receive all the latest news, views, offers and competitions from Another Place. Be the first to hear about our new events and what is going in the Lake District.
+  link: https://another.place/newsletter-signup/
+
 
 ---
-
-<div class="vpad--xxl">
-  <div class="container container--xl text--center">
-    {{page.intro}}
-  </div>
-</div>
-
-<div class="container container--100 container--no-padding">
-  <div class="row row--constant-4-4-4 row--no-gutters">
-
-    <div class="col">
-      <div class="bg-img bg-img--3-4 bg-img--lg-1-1" style="background-image: url({{site.img}}/img.jpg);"></div>
-    </div>
-
-    <div class="col">
-      <div class="bg-img bg-img--3-4 bg-img--lg-1-1" style="background-image: url({{site.img}}/img.jpg);"></div>
-    </div>
-
-    <div class="col">
-      <div class="bg-img bg-img--3-4 bg-img--lg-1-1" style="background-image: url({{site.img}}/img.jpg);"></div>
-    </div>
-
-  </div>
-</div>
-
-<div class="vpad--xxl">
-  <div class="container container--xl text--center">
-    <h2 class="title title--lg text--bold">Enter below for a chance to win</h2>
-    <div class="space--md"></div>
-    <iframe src="https://promotion5447.strutta.me" width="100%" height="700" frameborder="0"></iframe>
-  </div>
-</div>

@@ -8,29 +8,32 @@ nav-order: 1
 banner:
   title: >
     Lexus <span class="text--italic">Escapes</span>
+  title-sub: Escape with Lexus to the finest landscapes in Britain.
   intro: >
-    <h4 class="text--white title title--xs text--bolder space--sm">Escape with Lexus to the finest landscapes in Britain. </h4>
-    <div class="space--sm"></div>
-    <p class="text--lg text--normal">Discover unforgettable road trips and start planning your next adventure. Head out on the road with Lexus and Secret Escapes, with gorgeous British stays set to inspire your getaway. Watch the Hiles family embark on their very own road trip, before browsing our bespoke road trip guides and luxurious hotel offers. </p>
+    <p class="text--lg text--normal">Discover unforgettable road trips and start planning your next adventure. Head out on the road with Lexus and Secret Escapes, with gorgeous British stays set to inspire your getaway. </p>
 
+roadtrips:
+  title: Road trip guides
+  intro: >
+    <p class="text--lg text--normal">From idyllic Cornish coves to remote Highland crags, discover the British outdoors with our road trip guides. </p>
 
-
-
+test-drive-url: https://ad.doubleclick.net/ddm/clk/425962149;227783804;s
 
 ---
 
 
 
 <!-- Roadtrips -->
-<div class="container roadtrips-section">
+<div class="wp" id="roadtrips"></div>
+<div class="vpad--xl">
 
-  <div class="roadtrips-section__title text--white">
-    <h3 class="title title--md text--bold text--upper">Road trip guides </h3>
-    <p class="text--lg text--normal">From idyllic Cornish coves to remote Highland crags, discover the British outdoors with our road trip guides. </p>
-  </div>
+  <div class="container roadtrips-section">
 
-  <div class="roadtrips-section__links">
-    <div class="row row--4-4-4 row--no-gutters">
+    <h3 class="title title--xl text--bold">{{page.roadtrips.title}}</h3>
+    {{page.roadtrips.intro}}
+    <div class="space--xl"></div>
+
+    <div class="row row--xxl-4-4-4 row--gutters-sm">
       {% assign roadtrips = site.html_pages | where: 'group-parent', 'roadtrips' | sort: 'group-order' %}
       {% for roadtrip in roadtrips %}
         <div class="col">
@@ -38,19 +41,19 @@ banner:
         </div>
       {% endfor %}
     </div>
+
+    <div class="space--xl"></div>
+
+    <div class="row">
+      {% assign hero-roadtrip = site.html_pages | where: 'id', 'the-family-escape' %}
+      {% for roadtrip in hero-roadtrip %}
+        <div class="col col--12">
+          {% include page/roadtrip-tile--lg.html %}
+        </div>
+      {% endfor %}
+    </div>
+
   </div>
-
-  <div class="space--xl"></div>
-
-  <div class="row">
-    {% assign hero-roadtrip = site.html_pages | where: 'id', 'the-family-escape' %}
-    {% for roadtrip in hero-roadtrip %}
-      <div class="col col--12">
-        {% include page/roadtrip-tile--lg.html %}
-      </div>
-    {% endfor %}
-  </div>
-
 </div>
 
 

@@ -62,6 +62,11 @@ function modalOpen(event, modalId){
     $(this).removeClass('is-closed').addClass('is-open');
   });
 
+  if( $('#banner-video').length ){
+    document.getElementById('banner-video').pause();
+    console.log('pause banner video');
+  }
+
 }
 
 
@@ -87,6 +92,11 @@ function modalClose(event){
 
   // disable video
   $('.modal-video__iframe').attr('src','');
+
+  if( $('#banner-video').length ){
+    document.getElementById('banner-video').play();
+    console.log('play banner video');
+  }
 
 }
 
@@ -115,6 +125,13 @@ $(document).keyup(function(event) {
 var targetModalQuery = queryString('modal');
 if (targetModalQuery) {
   modalOpen(null, targetModalQuery);
+
+  setTimeout(function(){
+    if( $('#banner-video').length ){
+      document.getElementById('banner-video').pause();
+      console.log('pause banner video');
+    }
+  },1000);
 }
 
 

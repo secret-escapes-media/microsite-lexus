@@ -1,3 +1,51 @@
+
+
+
+
+#####################################################
+## ROADTRIP OFFERS
+#####################################################
+
+
+- title: Another Place
+  id: another-place
+  location: Lakes District
+  description: Warm hospitality and contemporary comfort combine with views over Ullswater and the fells. Inside are 40 bedrooms, Rampsbeck Restaurant, The Living Space bar and restaurant and a library – as well as Swim Club...
+  price: 000
+  price-description: per room per night
+  saved: 100
+  expires: 2000/01/01
+  link:
+
+- title: The Lakes by YOO
+  id: the-lakes-by-yoo
+  external-offer: true
+  location: Cotswolds
+  description: The Lakes by YOO is a private estate of second family homes and rental residences in the heart of the Cotswolds. With 850 acres of lakes, meadows and ancient woodland, it’s as serene as it is secure.
+  price: 000
+  price-description: per room per night
+  saved: 100
+  expires: 2000/01/01
+  link:
+
+- title: The Gardeners Cottage
+  id: the-gardeners-cottage
+  external-offer: true
+  location: Peaks District
+  description: Gardener's Cottage is grade II listed and was built in the early 19th century. It is situated within Chatsworth Park and has an elevated position opposite the historic village of Edensor.
+  price: 000
+  price-description: per room per night
+  saved: 100
+  expires: 2000/01/01
+  link:
+
+
+
+
+#####################################################
+## OTHER OFFERS
+#####################################################
+
 - title: Spectacular Oslo & Bergen break with optional fjord tour
   id: spectacular-oslo-bergen-break-with-optional-fjord-tour
   location: Scandic St. Olavs plass & Clarion Hotel Admiral, Norway

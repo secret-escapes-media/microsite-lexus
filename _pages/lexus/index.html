@@ -6,52 +6,60 @@ nav: true
 nav-order: 4
 content-pages: true
 
+banner:
+  title: Lexus RX
+  title-sub: Self-Charging Hybrid
+
 intro: >
-  <p class="text--xl">Discover the Lexus RX, your new luxury road trip SUV. Whether you’re set for challenging mountain passes or wish to sail down picturesque country lanes, unpick the beauty of the british landscape in a car built for fortuitous escapes. A self-charging hybrid with a multitude of features, it’s the perfect vehicle for adventure – find out more below and book your unique 24-hour test drive today.</p>
-  <div class="space--xs"></div>
-  <a href="#test-drive" class="btn btn--primary">Book a test drive</a>
+  <p class="text--xl">Discover the Lexus RX, your new luxury road-trip SUV. Whether you’re set for challenging mountain passes or wish to sail down picturesque country lanes, unpick the beauty of the British landscape in a car built for fortuitous escapes. A self-charging hybrid with a multitude of features, it’s the perfect vehicle for adventure – find out more below and book your unique 24-hour test drive today.</p>
+  <div class="space--md"></div>
+  <a href="?modal=test-drive" class="btn btn--primary">Book a test drive</a>
+  <a href="/_assets/img/lexus-brochure.pdf" id="tracking-brochure-btn-top" class="btn btn--outline-primary">Download brochure</a>
 
 features:
 
   - id: self-charging-hybrid
-    title: Self-Charging Hybrid
+    title: Lexus Self-Charging Hybrid
     content: Through the near perfect distribution of its two power sources, the RX 450h provides driving comfort and agility, together with lower emissions and fuel consumption. With Lexus Self-Charging Hybrid you’re always charged, always ready to go.
     button: Find out more
-    link: "#link"
+    link: "https://ad.doubleclick.net/ddm/clk/425962125;227655139;l"
 
   - id: handcrafted-interiors
     title: Handcrafted Interiors
     content: The finish of the Lexus RX central console and door trim resets the standard of luxury you should expect in an SUV. Takumi craftsmanship extends to the whole cabin, where years of exacting artisanship offers unmatched design crafted by hand.
     button: Find out more
-    link: "#link"
+    link: "https://ad.doubleclick.net/ddm/clk/425962125;227561444;g"
 
   - id: lexus-premium-navigation
     title: Lexus Premium Navigation
     content: Remarkably easy to use, the Lexus Premium Navigation offers a multitude of features to make your journey seamless from start to end. All you need to decide is where your adventure will take you.
     button: Find out more
-    link: "#link"
+    link: "https://ad.doubleclick.net/ddm/clk/425962125;227561447;j"
 
   - id: lexus-safety-system
     title: Lexus Safety System
-    content: Myriad safety features make the new Lexus RX perfect for family getaways. Adaptive cruise control and pre-crash safety, lane keep assist and other warning systems all contribute to keeping you safe.
+    content: An abundance of safety features make the new Lexus RX perfect for family getaways. Adaptive cruise control and pre-crash safety, lane keep assist and other warning systems all contribute to keeping you safe.
     button: Find out more
-    link: "#link"
+    link: "https://ad.doubleclick.net/ddm/clk/425962146;227561450;g"
 
   - id: lexus-rx-l
     title: Lexus RX L
-    content: Discover the luxurious seven-seat crossover, the RX L. All the features and stylings of the RX, now with more space for those big adventures.
+    content: Discover the luxurious 7 seat SUV, the RX L. All the features and stylings of the RX, now with more space for those big adventures.
     button: Find out more
-    link: "#link"
+    link: "https://ad.doubleclick.net/ddm/clk/425962143;227561453;g"
 
   - id: configurator
     title: Configurator
     content: With a range of equipment and various options, including F&nbsp;SPORT, you'll be able to build the RX that's perfect for you. Visit the website to start configuring your perfect version of the RX.
     button: Build your RX
-    link: "#link"
+    link: "https://ad.doubleclick.net/ddm/clk/425962119;227827437;q"
+
+
 
 sign-up:
   title: Stay up to date
   content: To stay updated on the latest Lexus news, offers and receive exclusive invitations sign up to the Lexus newsletter.
+  link: https://www.lexus.co.uk/forms/newsletter
 
 ---
 
@@ -71,7 +79,6 @@ sign-up:
         </div>
         <div class="bob__text">
           <h4 class="title title--md text--bold text--normal">{{feature.title}}</h4>
-          <div class="space--xs"></div>
           <p class="text--lg">{{feature.content}}</p>
           <div class="space--sm"></div>
           <a href="{{feature.link}}" target="_blank" id="tracking-lexus-feature-{{feature.id}}-btn" class="btn btn--primary btn--sm">{{feature.button}}</a>
@@ -89,7 +96,7 @@ sign-up:
     <h4 class="title title--md text--bold text--upper">{{page.sign-up.title}}</h4>
     <p class="text--lg">{{page.sign-up.content}}</p>
     <div class="space--sm"></div>
-    <a href="#" class="btn btn--primary">Sign up now</a>
+    <a href="{{page.sign-up.link}}" class="btn btn--primary">Sign up now</a>
   </div>
 </div>
 
@@ -101,8 +108,8 @@ sign-up:
 
     <div class="col col--7">
       <div class="container container--xl boxpad--xl">
-        <h2 class="title title--lg text--bold text--normal">Test drive the Lexus RX or the<br /> new seven-seat Lexus RX L</h2>
-        <p class="text--lg text--normal">Discover the self-charging hybrid Lexus RX, or for those big adventures, the Lexus RX L – now available for 24-hour test drives. Don’t miss your Lexus RX adventure...</p>
+        <h2 class="title title--lg text--bold text--normal">Test drive the Lexus RX and<br /> the New 7 Seat Lexus RX L</h2>
+        <p class="text--lg text--normal">Discover the Lexus RX Self-Charging Hybrid, or for those bigger adventures, the New 7 Seat Lexus RX L – now available for 24-hour test drives. Don’t miss your Lexus RX Adventure…</p>
         <div class="space--sm"></div>
         <a href="javascript:void(0);" data-modal-item="test-drive" class="js-open-modal btn btn--primary">Book now</a>
       </div>
@@ -113,9 +120,9 @@ sign-up:
         <div class="bg-img__content">
           <div class="container container--xl boxpad--xl">
             <h2 class="title title--lg text--bold text--normal">Download a brochure</h2>
-            <p class="text--lg text--normal">For more details on the RX line, download the brochure here.</p>
+            <p class="text--lg text--normal">For more details on the Lexus RX line, download the brochure.</p>
             <div class="space--sm"></div>
-            <a href="{{site.img}}/lexus-brochure.pdf" class="btn btn--invert">Download</a>
+            <a href="{{site.img}}/lexus-brochure.pdf" id="tracking-brochure-btn-bottom" class="btn btn--invert">Download now</a>
           </div>
         </div>
       </div>

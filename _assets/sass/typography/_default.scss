@@ -27,3 +27,18 @@ body {
   background-color: $white;
 
 }
+
+blockquote {
+  display: block;
+  margin: 1em 0;
+  padding-left: 0.8em;
+  border-left: 5px solid rgba($grey-darkest,0.2);
+  font-style: italic;
+  font-size: $s1;
+  font-weight: 400;
+  @include bp($xxl){
+    float: right;
+    width: 50%;
+    margin: 1em 0 1em 1em;
+  }
+}

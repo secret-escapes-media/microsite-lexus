@@ -14,6 +14,12 @@ sup {
   & .title { color: $white; }
 }
 
+.text--black {
+  color: $grey-darker;
+  &.title,
+  & .title { color: $grey-darker; }
+}
+
 // standard inline link style
 a[href]:not([class]) {
   color: $orange;

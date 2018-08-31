@@ -2,35 +2,26 @@
 
 
 
-
 // OVERVIEW PAGE
 .roadtrips-section {
   position: relative;
-  margin-top: -10em;
-  padding-bottom: $s8;
-  &__title {
-    & .title { color: $white; }
-    padding-bottom: $s2;
-  }
-  &__links {
-    border: 4px solid $white;
-    background-color: $white;
-  }
 }
 .roadtrip-tile {
   @include transition;
   @include background-attributes;
   transform: scale(1);
-  border: 8px solid #fff;
-  margin: -4px;
+  border: 0 solid $white;
   position: relative;
   z-index: 1;
-  &:hover { transform: scale(1.05); z-index: 2; }
+  &:hover {
+    transform: scale(1.05); z-index: 2;
+  }
   &:before {
     content: "";
     display: block;
     width: 100%;
-    padding-top: 133.33333%;
+    padding-top: 66.6667%;
+    @include bp($xxl){ padding-top: 133.33333%; }
   }
   &__link {
     position: absolute;
@@ -52,7 +43,10 @@
   }
   &:hover &__overlay { background-color: rgba($grey-darkest,.5); }
   // large version
-  &--large:before { padding-top: 33%; }
+  &--large:before {
+    padding-top: 66.6667%;
+    @include bp($xxl){ padding-top: 33%; }
+  }
   &--large:hover { transform: scale(1.02); }
   &--large &__content {
     top: 50%; bottom: auto; left: 0; right: auto;
@@ -64,7 +58,6 @@
 
 
 // ROADTRIP PAGE
-
 .roadtrip {
   $core-nav-height:     70px;
   $core-nav-height-sm:  54px;
@@ -88,8 +81,8 @@
     display: block;
     width: 100%;
     position: relative;
-    box-shadow: 0 0 100px 0 rgba($grey-dark,0.5);
     @include bp($xl){
+      box-shadow: 0 0 100px 0 rgba($grey-dark,0.5);
       height: 100%;
       width: 66.667%;
       max-width: 960px;
@@ -101,6 +94,7 @@
     display: none;
     background-color: $white;
     flex-direction: column;
+    padding-top: 60px;
     @include bp($xl){
       padding-top: $site-nav-height;
       position: absolute;
@@ -108,10 +102,11 @@
       width: 100%;
       overflow: scroll;
     }
-
-    &-images {}
     &-content {
-      padding: $s6;
+      padding: $s3;
+      @include bp($xl){
+        padding: $s6;
+      }
     }
     &-title {
       padding: $s6 0 $s2;
@@ -131,15 +126,60 @@
 
   // roadtrip map
   &__map {
-    width: 100%;
-    height: 45%;
+    position: fixed !important;
+    top: $s13; bottom: $s2;
+    left: $s2; right: $s2;
     overflow: hidden;
-    @include background-attributes;
+    display: block;
+    z-index: -1;
+    visibility: hidden;
+    &--mobile-active {
+      visibility: visible;
+      z-index: 1000;
+    }
     @include bp($xl){
+      visibility: visible;
+      display: block;
+      position: relative !important;
+      z-index: 0;
+      top: 0; left: 0; bottom: 0; right: 0;
       flex-grow: 1;
+      width: 100%;
       height: 100%;
       width: auto;
     }
+    &-close {
+      $icon-size-sm: 3.2em;
+      $icon-size: 4em;
+      @include transition;
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: $icon-size-sm;
+      width: $icon-size-sm;
+      background-color: rgba($white,0.8);
+      background-image: url('../img/icons/close-dark.svg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 1em;
+      cursor: pointer;
+      z-index: $z-overlay-upper;
+      &:hover{ background-color: $white; }
+      @include bp($lg){
+        height: $icon-size;
+        width: $icon-size;
+      }
+      @include bp($xl){ display: none; }
+    }
+  }
+
+  &__mobile {
+    &-controls {
+      display: block;
+      @include bp($xl){ display: none; }
+    }
+    // open button
+    &-open-map { display: inline-block; }
   }
 
   // navigation tiles
@@ -154,7 +194,7 @@
     position: absolute;
     bottom: 0;
     right: 0;
-    &-prev, &-next {
+    &-prev, &-next, &-close {
       background-color: $grey-darkest;
       height: $icon-size; width: $icon-size;
       display: inline-block;
@@ -165,43 +205,69 @@
     }
     &-prev { background-image: url('../img/icons/arrow-left.svg'); }
     &-next { background-image: url('../img/icons/arrow-right.svg'); margin-left: 0.5em; }
+    &-close { background-image: url('../img/icons/close-thin.svg'); margin-left: 0.5em; }
   }
 
 }
 
-// custom banner for roadtrip page
-.roadtrip-banner {
-  &.is-active { display: flex; }
-  display: none;
-  position: relative;
-  z-index: 10;
-  align-items: center;
-  flex-direction: column;
-  justify-content: flex-start;
-  height: 100%;
-  min-height: 850px;
-  color: $white;
-  background-color: $grey-darkest;
-  &__wrap {
-    position: relative;
-    z-index: $z-content-upper;
-    display: flex;
-    width: 100%;
-    flex-grow: 1;
-    flex-direction: column;
-    justify-content: center;
-    overflow: hidden;
-    @include page-padding;
+
+
+// THE FAMILY ESCAPE
+.story__family {
+  width: 100%;
+  max-width: 120px;
+  @include bp($xxxl){
+    max-width: 200px;
   }
-  &__bg {
+}
+
+
+
+// COMPETITION PAGE
+
+.banner--competition {}
+.competition-title {
+  font-family: $font-title-01;
+  font-size: $s4;
+  line-height: 1.1;
+  font-weight: 700;
+  @include bp($lg){ font-size: $s5; }
+  @include bp($xl){ font-size: $s6; }
+  @include bp($xxl){ font-size: $s7; }
+  @include bp($xxxl){ font-size: $s8; }
+}
+
+.prize-builder {
+  // game intro and title
+  &__steps {
+    position: relative;
+    max-width: $xl;
+    margin-left: auto;
+    margin-right: auto;
+    .prize-builder--complete & { display: none; }
+  }
+  &__step {
+    display: none;
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: $z-content;
-    background-color: $grey-darkest;
-    @include background-attributes;
+    width: 100%;
+    &.is-active {
+      position: relative;
+      display: block;
+    }
+  }
+  &__option {
+    @include transition();
+    transform: scale(1);
+    margin: 1em;
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+  &__result {
+    display: none;
+    .prize-builder--complete & { display: block; }
+    // title for results
+    &-title { text-align: center; }
   }
 }
 

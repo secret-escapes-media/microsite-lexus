@@ -7,6 +7,7 @@
     <div class="roadtrip__nav">
       <a href="javascript:void(0);" class="roadtrip__nav-prev"></a>
       <a href="javascript:void(0);" class="roadtrip__nav-next"></a>
+      <a href="javascript:void(0);" class="roadtrip__nav-close"  data-stop-link="0" data-stop-id="start"></a>
     </div>
   </div>
 
@@ -44,13 +45,18 @@
     <h2 class="title title--xl text--upper">
       {{forloop.index}} <span class="text--bold">{{stop.title}}</span>
     </h2>
-
+    <div class="space--xs"></div>
+    <span class="title title--xxxs text--bold">You are {{stop.progress}} miles through this {{roadtrip.length}} mile route </span>
+    <div class="space--xs"></div>
+    <hr class="hr--thick">
     {{stop.content}}
 
-    <!-- progress -->
-    <hr class="hr--thick">
-    <span class="title title--xxxs text--bold">You are {{stop.progress}} miles through this {{roadtrip.length}} mile route </span>
-    <p class="text--sm">The mileage is estimated for guidance only. Please check exact directions and traffic conditions before you begin your journey</p>
+    <div class="roadtrip__mobile-controls">
+      <hr class="hr--thick">
+      <a href="javascript:void(0);" class="roadtrip__nav-prev"></a>
+      <a href="javascript:void(0);" class="roadtrip__nav-next"></a>
+      <a href="javascript:void(0);" class="roadtrip__nav-close"  data-stop-link="0" data-stop-id="start"></a>
+    </div>
 
   </div>
 </div>

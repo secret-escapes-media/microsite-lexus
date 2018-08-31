@@ -1,5 +1,5 @@
 
-<div class="roadtrip__stop roadtrip__stop-intro is-current" style="background-image: url({{site.img}}/content/{{page.id}}/banner.jpg);">
+<div class="roadtrip__stop roadtrip__stop-intro is-current" data-stop-id="start" style="background-image: url({{site.img}}/content/{{page.id}}/banner.jpg);">
   <!-- ROADTRIP INTRO PAGE -->
 
   <div class="roadtrip__stop-content text--white">
@@ -7,6 +7,14 @@
     <h2 class="title title--xxxl text--upper text--bold">{{page.title}}</h2>
     <hr class="hr--thick">
     {{page.intro}}
+
+    <div class="roadtrip__mobile-controls">
+      <div class="space--sm"></div>
+      <a href="javascript:void(0);" class="roadtrip__map-open roadtrip__mobile-open-map boxpad--lg bg--grey-lightest text--black">
+        <span class="title title--xxxs text--upper text--bold">View this roadtrip on the map</span>
+      </a>
+    </div>
+
     <hr class="hr--thick">
     <div class="space--sm"></div>
     <div class="row row--6-6 row--gutters-sm">

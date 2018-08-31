@@ -9,7 +9,28 @@ layout: standard
   </div>
 </div>
 
-{% include offer/all-offers.html %}
+
+
+{% assign another-place = site.data.offers | where: 'id','another-place' %}
+{% assign offers-by-saving = site.data.offers | sort: 'saved' | reverse %}
+<div class="container vpad--xxl">
+  <div class="row row--xl-6-6 row--gutters-lg">
+    {% for offer in another-place %}
+      <div class="col">
+        {% include offer/offer.html %}
+      </div>
+    {% endfor %}
+    {% for offer in offers-by-saving %}
+      {% unless offer.external-offer %}
+      {% unless offer.id == 'another-place' %}
+        <div class="col">
+          {% include offer/offer.html %}
+        </div>
+      {% endunless %}
+      {% endunless %}
+    {% endfor %}
+  </div>
+</div>
 
 {% include page/promo-offers.html %}
 

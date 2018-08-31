@@ -145,6 +145,7 @@ $offer-max-width: 600px;
     width: 100%;
     max-width: $xxl;
     border: 1px solid $grey-lighter;
+    & .offer__bottom { justify-content: flex-start; }
   }
 
 }
