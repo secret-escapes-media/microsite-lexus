@@ -148,4 +148,16 @@ $offer-max-width: 600px;
     & .offer__bottom { justify-content: flex-start; }
   }
 
+  // ======== LARGE OFFER
+  &--external {
+    & .offer__location:before { background-image: url(../img/icons/map-pin-black.svg); }
+    & .offer__price { color: $grey-darkest; }
+    & .offer__arrow {
+      border-color: $grey-darkest;
+      background-image: url(../img/icons/arrow-right-black.svg);
+    }
+    & .btn--orange { background-color: $grey-darker; }
+    & .btn--orange:hover { background-color: $grey-darkest; }
+  }
+
 }

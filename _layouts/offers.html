@@ -11,24 +11,29 @@ layout: standard
 
 
 
-{% assign another-place = site.data.offers | where: 'id','another-place' %}
-{% assign offers-by-saving = site.data.offers | sort: 'saved' | reverse %}
 <div class="container vpad--xxl">
   <div class="row row--xl-6-6 row--gutters-lg">
+
+    {% assign another-place = site.data.offers | where: 'id','another-place' %}
     {% for offer in another-place %}
-      <div class="col">
-        {% include offer/offer.html %}
-      </div>
-    {% endfor %}
-    {% for offer in offers-by-saving %}
       {% unless offer.external-offer %}
-      {% unless offer.id == 'another-place' %}
         <div class="col">
           {% include offer/offer.html %}
         </div>
       {% endunless %}
+    {% endfor %}
+
+    {% assign offers = site.data.offers | sort: 'saved' | reverse %}
+    {% for offer in offers %}
+      {% unless offer.external-offer %}
+        {% unless offer.id == 'another-place' %}
+          <div class="col">
+            {% include offer/offer.html %}
+          </div>
+        {% endunless %}
       {% endunless %}
     {% endfor %}
+
   </div>
 </div>
 

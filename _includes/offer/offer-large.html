@@ -1,4 +1,4 @@
-<div class="offer offer--lg">
+<div class="offer offer--lg{% if offer.external-offer %} offer--external{% endif %}">
 
   <a class="offer__link" href="{{offer.link}}"><span class="btn btn--orange">View Offer</span></a>
 
@@ -18,7 +18,7 @@
 
         <div class="offer__bottom">
 
-          <div>From <span class="offer__price">£{{offer.price}}</span> 
+          <div>From <span class="offer__price">£{{offer.price}}</span>
           <span class="text--sm">{{offer.price-description}}</span> </div>
 
           <div class="offer__bottom-right">
