@@ -40,26 +40,6 @@
   expires: 2018/09/05
   link: https://www.secretescapes.com/the-white-hart-nettlebed-oxfordshire/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
 
-- title: Charming Cotswolds stays
-  id: charming-cotswolds-stays
-  location: The Bell at Stow or Stuart House, Stow-on-the-Wold
-  description: Your choice of two postcard-perfect Cotswolds stays
-  price: 75
-  price-description: per room per night
-  saved: 24
-  expires: 2018/09/05
-  link: https://www.secretescapes.com/a-choice-of-two-charming-cotswolds-stays-the-bell-at-stow-or-stuart-house-stow-on-the-wold/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
-
-- title: Acclaimed South Downs pub turned country inn
-  id: acclaimed-south-downs-pub-turned-country-inn
-  location: The Welldiggers Arms, Petworth
-  description: An acclaimed Epicurean Collection member in the South Downs
-  price: 79
-  price-description: per room per night
-  saved: 32
-  expires: 2018/09/05
-  link: https://www.secretescapes.com/the-welldiggers-arms-petworth-south-downs-national-park/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
-
 - title: The Bell in Ticehurst
   id: the-bell-in-ticehurst
   location: Ticehurst, East Sussex
@@ -69,16 +49,6 @@
   saved: 50
   expires: 2018/09/05
   link: https://www.secretescapes.com/the-bell-in-ticehurst-ticehurst-east-sussex/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
-
-- title: South Downs stay in an award-winning country inn
-  id: south-downs-stay-in-an-award-winning-country-inn
-  location: The White Horse, West Sussex
-  description: A stylish, award-winning inn on the South Downs
-  price: 75
-  price-description: per room per night
-  saved: 37
-  expires: 2018/09/05
-  link: https://www.secretescapes.com/the-white-horse-chilgrove-west-sussex/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
 
 - title: 5* refined West Sussex sojourn
   id: 5-refined-west-sussex-sojourn
@@ -169,6 +139,36 @@
   saved: 35
   expires: 2018/09/12
   link: https://www.secretescapes.com/stylish-staffordshire-boutique-spa-getaway-moddershall-oaks-country-spa-retreat-moddershall/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
+
+- title: Stunning Buckinghamshire turreted country house
+  id: stunning-buckinghamshire-turreted-country-house
+  location: Danesfield House Hotel & Spa, Marlow-On-Thames
+  description: A Buckinghamshire estate stay with an award-winning spa
+  price: 249
+  price-description: per room per night
+  saved: 44
+  expires: 2018/09/12
+  link: https://www.secretescapes.com/stunning-buckinghamshire-turreted-country-house-danesfield-house-hotel-and-spa-marlow-on-thames/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
+
+- title: Charming Cornwall spa hotel stay
+  id: charming-cornwall-spa-hotel-stay
+  location: Merchants Manor, Falmouth
+  description: A Falmouth spa hotel in a former merchant’s abode
+  price: 89
+  price-description: per room per night
+  saved: 55
+  expires: 2018/09/12
+  link: https://www.secretescapes.com/merchants-manor-falmouth-cornwall/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
+
+- title: Albion House
+  id: albion-house
+  location: Ramsgate, Kent
+  description: A Condé Nast Traveller-listed seaside stay in Ramsgate
+  price: 125
+  price-description: per room per night
+  saved: 26
+  expires: 2018/09/12
+  link: https://www.secretescapes.com/albion-house-ramsgate-kent/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
 
 
 
