@@ -110,16 +110,6 @@
   expires: 2018/09/17
   link: https://www.secretescapes.com/5-star-devon-country-house-with-exceptional-dining-plus-christmas-dates-lympstone-manor-exmouth/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
 
-- title: Rustic-chic Suffolk retreat with a spa
-  id: rustic-chic-suffolk-retreat-with-a-spa
-  location: Retreat East, Hemingstone
-  description: A unique stay at a members-only farm in Suffolk
-  price: 175
-  price-description: per room per night
-  saved: 24
-  expires: 2018/09/05
-  link: https://www.secretescapes.com/retreat-east-hemingstone-suffolk/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
-
 - title: Carbis Bay Hotel & Estate
   id: carbis-bay-hotel-estate
   location: St Ives, Cornwall
@@ -129,16 +119,6 @@
   saved: 59
   expires: 2018/09/05
   link: https://www.secretescapes.com/carbis-bay-hotel-and-estate-st-ives-cornwall/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
-
-- title: Stylish Staffordshire boutique spa getaway
-  id: stylish-staffordshire-boutique-spa-getaway
-  location: Moddershall Oaks Country Spa Retreat, Moddershall
-  description: Suite dreams at a Good Spa Guide-recommended Staffordshire retreat
-  price: 249
-  price-description: per suite per night
-  saved: 35
-  expires: 2018/09/12
-  link: https://www.secretescapes.com/stylish-staffordshire-boutique-spa-getaway-moddershall-oaks-country-spa-retreat-moddershall/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
 
 - title: Stunning Buckinghamshire turreted country house
   id: stunning-buckinghamshire-turreted-country-house
@@ -189,6 +169,86 @@
   saved: 43
   expires: 2018/09/18
   link: https://www.secretescapes.com/idyllic-cornish-retreat-overlooking-st-michaels-mount-mount-haven-hotel-cornwall/sale?gce_hpp=2&utm_source=SE_Media&utm_medium=Lexus&utm_campaign=September2018
+
+- title: Worcestershire country mansion with chic spa
+  id: worcestershire-country-mansion-with-chic-spa
+  location: The Elms Hotel, Abberley
+  description: A chic Worcestershire spa hotel within a grand mansion
+  price: 70
+  price-description: per person per night
+  saved: 32
+  expires: 2018/09/19
+  link: https://www.secretescapes.com/the-elms-hotel-abberley-worcestershire/sale?gce_hpp=1&utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
+
+- title: Cosy Oxfordshire digs with charming gastro-pub
+  id: cosy-oxfordshire-digs-with-charming-gastro-pub
+  location: The Crown Inn, Playhatch
+  description: A 16th-century Oxfordshire inn with boutique style
+  price: 50
+  price-description: per person per night
+  saved: 49
+  expires: 2018/09/19
+  link: https://www.secretescapes.com/cosy-oxfordshire-digs-with-charming-gastro-pub-the-crown-inn-playhatch/sale?gce_hpp=1&utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
+
+- title: Idyllic Yorkshire Dales glamping stay at an acclaimed retreat
+  id: idyllic-yorkshire-dales-glamping-stay-at-an-acclaimed-retreat
+  location: Swinton Bivouac Luxury Glamping, Masham
+  description: Beautiful hand-crafted lodges and yurts in the unspoilt dales, with room for a large group
+  price: 99
+  price-description: per yurt per night
+  saved: 42
+  expires: 2018/09/19
+  link: https://www.secretescapes.com/idyllic-yorkshire-dales-glamping-stay-at-an-acclaimed-retreat-swinton-bivouac-luxury-glamping-masham/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
+
+- title: Scenic stay with views over Lake Windermere
+  id: scenic-stay-with-views-over-lake-windermere
+  location: Hillthwaite, Lake District
+  description: A charming Lake District abode overlooking Windermere
+  price: 74
+  price-description: per person per night
+  saved: 45
+  expires: 2018/09/19
+  link: https://www.secretescapes.com/scenic-stay-with-views-over-lake-windermere-hillthwaite-house-hotel-lake-district/sale?gce_hpp=1&utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
+
+- title: Cotswolds country manor house spa stay
+  id: cotswolds-country-manor-house-spa-stay
+  location: Whatley Manor, Wiltshire
+  description: Cotswolds spa escape at a grand country manor house
+  price: 210
+  price-description: per person per night
+  saved: 31
+  expires: 2018/09/19
+  link: https://www.secretescapes.com/whatley-manor-malmesbury-wiltshire/sale?gce_hpp=1&utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
+
+- title: Award-winning Lake District hotel on the shores of Ullswater
+  id: award-winning-lake-district-hotel-on-the-shores-of-ullswater
+  location: Sharrow Bay, Lake District
+  description: Ullswater views at a country hotel in the Lake District
+  price: 144
+  price-description: per person per night
+  saved: 45
+  expires: 2018/09/19
+  link: https://www.secretescapes.com/award-winning-lake-district-hotel-on-the-shores-of-ullswater-sharrow-bay-lake-district/sale?gce_hpp=1&utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
+
+- title: Feversham Arms Hotel & Verbena Spa
+  id: feversham-arms-hotel-verbena-spa
+  location: Helmsley, North Yorkshire
+  description: An acclaimed boutique spa retreat in North Yorkshire
+  price: 100
+  price-description: per person per night
+  saved: 39
+  expires: 2018/09/19
+  link: https://www.secretescapes.com/north-yorkshire-country-house-with-luxe-spa-and-aa-rosette-dining-feversham-arms-hotel-and-verbena-spa-helmsley/sale?gce_hpp=1&utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
+
+- title: Luxury Pembrokeshire country house with award-winning dining
+  id: luxury-pembrokeshire-country-house-with-award-winning-dining
+  location: Grove of Narberth, Wales
+  description: A luxe hotel with an acclaimed restaurant in rural Wales
+  price: 74
+  price-description: per person per night
+  saved: 45
+  expires: 2018/09/19
+  link: https://www.secretescapes.com/luxury-pembrokeshire-country-house-with-award-winning-dining-grove-of-narberth-wales/sale?gce_hpp=1&utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
 
 
 
