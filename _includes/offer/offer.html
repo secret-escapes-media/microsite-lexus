@@ -10,6 +10,7 @@
     <h4 class="offer__location">{{offer.location}}</h4>
     <div class="offer__description">{{offer.description}}</div>
 
+    {% unless offer.external-offer %}
     <div class="offer__bottom">
 
       <div class="offer__bottom-left">
@@ -33,6 +34,7 @@
       </div>
 
     </div>
+    {% endunless %}
 
   </div>
 

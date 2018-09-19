@@ -1,57 +1,49 @@
 
 
-- title: The Dunstane Houses
-  id: the-dunstane-houses
-  location: Edinburgh, Scotland
-  description: A five-star Edinburgh base brimming with Neoclassical elegance
-  price: 62
+
+- title: Stylish Lake District stay at a new bolthole on Ullswater's shores
+  id: stylish-lake-district-stay-at-a-new-bolthole-on-ullswater-s-shores
+  offers-page: true
+  region: lake-district
+  location: Another Place, The Lake, Penrith
+  description: A new, boutique Lake District hideaway on the shores of Ullswater Lake
+  price: 80
   price-description: per person per night
-  saved: 46
-  expires: 2018/09/05
-  link: https://www.secretescapes.com/the-dunstane-houses-edinburgh-scotland/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
-
-- title: 5* historic manor house on the edge of Dartmoor
-  id: 5-historic-manor-house-on-the-edge-of-dartmoor
-  location: Bovey Castle, Devon
-  description: A five-star, historic manor house on the edge of Dartmoor
-  price: 169
-  price-description: per room per night
-  saved: 40
-  expires: 2018/09/05
-  link: https://www.secretescapes.com/bovey-castle-devon/sale-hotel?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
-
-- title: Cosy Cotswolds pad with an award-winning pub
-  id: cosy-cotswolds-pad-with-an-award-winning-pub
-  location: The Five Alls at Filkins, Lechlade
-  description: An award-winning English pub stay close to the Cotswolds
-  price: 129
-  price-description: per room per night
   saved: 36
-  expires: 2018/09/05
-  link: https://www.secretescapes.com/cosy-cotswolds-pad-with-an-award-winning-pub-the-five-alls-at-filkins-lechlade/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
+  expires: 2018/09/19
+  link: https://www.secretescapes.com/stylish-lake-district-stay-at-a-new-bolthole-another-place-the-lake-penrith/sale?gce_hpp=1&utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
 
-- title: Boutique country inn stay in a pretty Oxfordshire village
-  id: boutique-country-inn-stay-in-a-pretty-oxfordshire-village
-  location: The White Hart, Oxfordshire
-  description: A 14th-century Oxfordshire country inn with unique interiors
-  price: 99
-  price-description: per room per night
-  saved: 42
-  expires: 2018/09/05
-  link: https://www.secretescapes.com/the-white-hart-nettlebed-oxfordshire/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
 
-- title: The Bell in Ticehurst
-  id: the-bell-in-ticehurst
-  location: Ticehurst, East Sussex
-  description: A rustic-chic stay at an award-winning East Sussex inn
-  price: 75
-  price-description: per room per night
-  saved: 50
-  expires: 2018/09/05
-  link: https://www.secretescapes.com/the-bell-in-ticehurst-ticehurst-east-sussex/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
+
+- title: Chatsworth Estate Holiday Cottages
+  id: chatsworth-estate-holiday-cottages
+  offers-page: true
+  external-offer: true
+  location: Peaks District
+  description: >
+    Located in the heart of the Peak District National Park, the Chatsworth Estate offers 20 luxury self-catering holiday cottages owned by the Duke of Devonshire – the perfect base when visiting the Peaks. Use the code <strong>SECRET</strong> when booking to get an exclusive 15% off.
+  price:
+  price-description:
+  saved:
+  expires:
+  link: http://bit.ly/2Mvbqb6
+
+- title: Scenic Scottish Highland Victorian lodge stay near Gairloch
+  id: scenic-scottish-highland-victorian-lodge-stay-near-gairloch
+  offers-page: true
+  region:
+  location: Shieldaig Lodge, Scotland
+  description: Stay lochside at a converted Victorian lodge in Scotland's West Highlands
+  price: 40
+  price-description: per person per night
+  saved: 47
+  expires: 2018/09/25
+  link:
 
 - title: 5* refined West Sussex sojourn
   id: 5-refined-west-sussex-sojourn
+  offers-page: true
+  region:
   location: Alexander House & Utopia Spa, East Grinstead
   description: Five-star spa heaven at a West Sussex award-winner
   price: 199
@@ -62,6 +54,8 @@
 
 - title: Low Wood Bay Resort & Spa
   id: low-wood-bay-resort-spa
+  offers-page: true
+  region: lake-district
   location: Windermere, Lake District
   description: Modernised interiors on the shores of Lake Windermere
   price: 145
@@ -72,6 +66,8 @@
 
 - title: A Wiltshire stay in a cosy manor house
   id: a-wiltshire-stay-in-a-cosy-manor-house
+  offers-page: true
+  region: cotswolds
   location: Woolley Grange, Bradford-on-Avon
   description: A Jacobean manor house on the edge of the Cotswolds
   price: 119
@@ -82,6 +78,8 @@
 
 - title: Fairytale Scotland castle-style stay
   id: fairytale-scotland-castle-style-stay
+  offers-page: true
+  region:
   location: Knockderry House, Cove
   description: An imposing historic country house on the banks of Loch Long
   price: 79
@@ -90,18 +88,10 @@
   expires: 2018/09/12
   link: https://www.secretescapes.com/fairytale-scotland-castle-style-stay-knockderry-house-cove/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
 
-- title: New Park Manor
-  id: new-park-manor
-  location: New Forest, Hampshire
-  description: A relaxing New Forest stay in a former hunting lodge with spa
-  price: 129
-  price-description: per room per night
-  saved: 46
-  expires: 2018/09/05
-  link: https://www.secretescapes.com/new-park-manor-new-forest-hampshire/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
-
 - title: 5* Devon country house with exceptional dining plus festive dates
   id: 5-devon-country-house-with-exceptional-dining-plus-festive-dates
+  offers-page: true
+  region:
   location: Lympstone Manor, Exmouth
   description: A stunning five-star Devon hotel with Michelin star dining
   price: 365
@@ -110,18 +100,10 @@
   expires: 2018/09/17
   link: https://www.secretescapes.com/5-star-devon-country-house-with-exceptional-dining-plus-christmas-dates-lympstone-manor-exmouth/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
 
-- title: Carbis Bay Hotel & Estate
-  id: carbis-bay-hotel-estate
-  location: St Ives, Cornwall
-  description: A plush, award-winning St Ives beach hotel with a spa
-  price: 149
-  price-description: per room per night
-  saved: 59
-  expires: 2018/09/05
-  link: https://www.secretescapes.com/carbis-bay-hotel-and-estate-st-ives-cornwall/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
-
 - title: Stunning Buckinghamshire turreted country house
   id: stunning-buckinghamshire-turreted-country-house
+  offers-page: true
+  region:
   location: Danesfield House Hotel & Spa, Marlow-On-Thames
   description: A Buckinghamshire estate stay with an award-winning spa
   price: 249
@@ -132,6 +114,8 @@
 
 - title: Charming Cornwall spa hotel stay
   id: charming-cornwall-spa-hotel-stay
+  offers-page: true
+  region:
   location: Merchants Manor, Falmouth
   description: A Falmouth spa hotel in a former merchant’s abode
   price: 89
@@ -142,6 +126,8 @@
 
 - title: Albion House
   id: albion-house
+  offers-page: true
+  region:
   location: Ramsgate, Kent
   description: A Condé Nast Traveller-listed seaside stay in Ramsgate
   price: 125
@@ -152,6 +138,8 @@
 
 - title: Charming hotel set in the scenic Scottish Highlands
   id: charming-hotel-set-in-the-scenic-scottish-highlands
+  offers-page: true
+  region:
   location: Forss House, Thurso
   description: A charming four-star hotel in the Scottish Highlands
   price: 89
@@ -162,6 +150,8 @@
 
 - title: Idyllic Cornish retreat overlooking St Michael’s Mount
   id: idyllic-cornish-retreat-overlooking-st-michael-s-mount
+  offers-page: true
+  region:
   location: Mount Haven Hotel, Cornwall
   description: Stunning St Michael’s Mount views at a tranquil Cornish hotel
   price: 119
@@ -172,6 +162,8 @@
 
 - title: Worcestershire country mansion with chic spa
   id: worcestershire-country-mansion-with-chic-spa
+  offers-page: true
+  region: cotswolds
   location: The Elms Hotel, Abberley
   description: A chic Worcestershire spa hotel within a grand mansion
   price: 70
@@ -182,6 +174,8 @@
 
 - title: Cosy Oxfordshire digs with charming gastro-pub
   id: cosy-oxfordshire-digs-with-charming-gastro-pub
+  offers-page: true
+  region:
   location: The Crown Inn, Playhatch
   description: A 16th-century Oxfordshire inn with boutique style
   price: 50
@@ -192,6 +186,8 @@
 
 - title: Idyllic Yorkshire Dales glamping stay at an acclaimed retreat
   id: idyllic-yorkshire-dales-glamping-stay-at-an-acclaimed-retreat
+  offers-page: true
+  region: peak-district
   location: Swinton Bivouac Luxury Glamping, Masham
   description: Beautiful hand-crafted lodges and yurts in the unspoilt dales, with room for a large group
   price: 99
@@ -202,6 +198,8 @@
 
 - title: Scenic stay with views over Lake Windermere
   id: scenic-stay-with-views-over-lake-windermere
+  offers-page: true
+  region: lake-district
   location: Hillthwaite, Lake District
   description: A charming Lake District abode overlooking Windermere
   price: 74
@@ -212,6 +210,8 @@
 
 - title: Cotswolds country manor house spa stay
   id: cotswolds-country-manor-house-spa-stay
+  offers-page: true
+  region: cotswolds
   location: Whatley Manor, Wiltshire
   description: Cotswolds spa escape at a grand country manor house
   price: 210
@@ -222,6 +222,8 @@
 
 - title: Award-winning Lake District hotel on the shores of Ullswater
   id: award-winning-lake-district-hotel-on-the-shores-of-ullswater
+  offers-page: true
+  region: lake-district
   location: Sharrow Bay, Lake District
   description: Ullswater views at a country hotel in the Lake District
   price: 144
@@ -232,6 +234,8 @@
 
 - title: Feversham Arms Hotel & Verbena Spa
   id: feversham-arms-hotel-verbena-spa
+  offers-page: true
+  region: peak-district
   location: Helmsley, North Yorkshire
   description: An acclaimed boutique spa retreat in North Yorkshire
   price: 100
@@ -242,6 +246,8 @@
 
 - title: Luxury Pembrokeshire country house with award-winning dining
   id: luxury-pembrokeshire-country-house-with-award-winning-dining
+  offers-page: true
+  region:
   location: Grove of Narberth, Wales
   description: A luxe hotel with an acclaimed restaurant in rural Wales
   price: 74
@@ -258,34 +264,34 @@
 
 - title: Another Place
   id: another-place
-  external-offer: true
+  external-offer:
   location: Lakes District
   description: Warm hospitality and contemporary comfort combine with views over Ullswater and the fells. Inside are 40 bedrooms, Rampsbeck Restaurant, The Living Space bar and restaurant and a library – as well as Swim Club...
-  price: 000
-  price-description: per room per night
-  saved:
-  expires:
-  link:
+  price: 80
+  price-description: per person per night
+  saved: 36
+  expires: 2018/09/19
+  link: https://www.secretescapes.com/stylish-lake-district-stay-at-a-new-bolthole-another-place-the-lake-penrith/sale?gce_hpp=1&utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
 
 - title: The Lakes by YOO
   id: the-lakes-by-yoo
   external-offer: true
   location: Cotswolds
   description: The Lakes by YOO is a private estate of second family homes and rental residences in the heart of the Cotswolds. With 850 acres of lakes, meadows and ancient woodland, it’s as serene as it is secure.
-  price: 000
+  price:
   price-description: per room per night
   saved:
   expires:
-  link:
+  link: https://goo.gl/jrGwKV
 
 - title: The Gardeners Cottage
   id: the-gardeners-cottage
   external-offer: true
   location: Peaks District
   description: Gardener's Cottage is grade II listed and was built in the early 19th century. It is situated within Chatsworth Park and has an elevated position opposite the historic village of Edensor.
-  price: 000
+  price:
   price-description: per room per night
   saved:
   expires:
-  link:
+  link: https://goo.gl/YudhDS
 

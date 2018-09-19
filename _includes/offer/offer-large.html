@@ -1,6 +1,6 @@
-<div class="offer offer--lg{% if offer.external-offer %} offer--external{% endif %}">
+<div class="offer offer--lg{% if offer.external-offer %} offer--external" id="tracking-ext-offer-{{offer.id}}{% endif %}">
 
-  <a class="offer__link" href="{{offer.link}}"><span class="btn btn--orange">View Offer</span></a>
+  <a class="offer__link" href="{{offer.link}}"{% if offer.external-offer %} target="_blank"{% endif %}><span class="btn btn--orange">View Offer</span></a>
 
   <div class="row row--valign-center row--no-gutters">
 
@@ -18,8 +18,10 @@
 
         <div class="offer__bottom">
 
+          {% if offer.price %}
           <div>From <span class="offer__price">£{{offer.price}}</span>
           <span class="text--sm">{{offer.price-description}}</span> </div>
+          {% endif %}
 
           <div class="offer__bottom-right">
             <div class="offer__arrow"></div>

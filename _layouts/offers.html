@@ -14,24 +14,11 @@ layout: standard
 <div class="container vpad--xxl">
   <div class="row row--xl-6-6 row--gutters-lg">
 
-    {% assign another-place = site.data.offers | where: 'id','another-place' %}
-    {% for offer in another-place %}
-      {% unless offer.external-offer %}
-        <div class="col">
-          {% include offer/offer.html %}
-        </div>
-      {% endunless %}
-    {% endfor %}
-
-    {% assign offers = site.data.offers | sort: 'saved' | reverse %}
+    {% assign offers = site.data.offers | where: 'offers-page','true' %}
     {% for offer in offers %}
-      {% unless offer.external-offer %}
-        {% unless offer.id == 'another-place' %}
-          <div class="col">
-            {% include offer/offer.html %}
-          </div>
-        {% endunless %}
-      {% endunless %}
+      <div class="col">
+        {% include offer/offer.html %}
+      </div>
     {% endfor %}
 
   </div>

@@ -27,7 +27,8 @@
     <div class="space--md"></div>
 
     <div class="row row--xl-6-6 row--gutters-lg">
-      {% for offer in site.data.offers %}
+      {% assign offers = site.data.offers | where: "region", item.id %}
+      {% for offer in offers %}
         <div class="col">
           {% include offer/offer.html %}
         </div>
