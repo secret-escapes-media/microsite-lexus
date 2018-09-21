@@ -53,7 +53,7 @@ if( $('#map').length ){
         coordString += coord;
       };
 
-      var directionsRequest = 'https://api.mapbox.com/directions/v5/mapbox/driving/' + coordString + '?geometries=geojson&access_token=' + mapboxgl.accessToken;
+      var directionsRequest = 'https://api.mapbox.com/directions/v5/mapbox/driving/' + coordString + '?overview=full&geometries=geojson&access_token=' + mapboxgl.accessToken;
 
       $.ajax({
         method: 'GET',
