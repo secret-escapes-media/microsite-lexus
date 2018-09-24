@@ -14,7 +14,7 @@
     <h4 class="title title--md text--normal">Stay where George stayed</h4>
     <div class="space--md"></div>
 
-    {% assign featured-offer = site.data.offers | where: "id", item.offer-id %}
+    {% assign featured-offer = site.data.roadtrip-offers | where: "id", item.offer-id %}
     {% for offer in featured-offer %}
       <div class="col">
         {% include offer/offer-large.html %}
@@ -22,18 +22,20 @@
     {% endfor %}
 
 
-    <div class="space--xxl"></div>
-    <h4 class="title title--md text--normal">{{item.title}} Offers</h4>
-    <div class="space--md"></div>
+    {% assign offers = site.data.offers | where: "region", item.id %}
+    {% if offers.size > 0 %}
+      <div class="space--xxl"></div>
+      <h4 class="title title--md text--normal">{{item.title}} Offers</h4>
+      <div class="space--md"></div>
 
-    <div class="row row--xl-6-6 row--gutters-lg">
-      {% assign offers = site.data.offers | where: "region", item.id %}
-      {% for offer in offers %}
-        <div class="col">
-          {% include offer/offer.html %}
-        </div>
-      {% endfor %}
-    </div>
+      <div class="row row--xl-6-6 row--gutters-lg">
+        {% for offer in offers %}
+          <div class="col">
+            {% include offer/offer.html %}
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
 
   </div>
 </div>

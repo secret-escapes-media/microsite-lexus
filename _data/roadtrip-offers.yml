@@ -1,0 +1,51 @@
+
+#####################################################
+## ROADTRIP OFFERS
+#####################################################
+
+- title: Another Place
+  id: another-place
+  external-offer:
+  location: Lakes District
+  description: Warm hospitality and contemporary comfort combine with views over Ullswater and the fells. Inside are 40 bedrooms, Rampsbeck Restaurant, The Living Space bar and restaurant and a library – as well as Swim Club...
+  price: 80
+  price-description: per person per night
+  saved: 36
+  expires: 2018/09/19
+  link: https://www.secretescapes.com/stylish-lake-district-stay-at-a-new-bolthole-another-place-the-lake-penrith/sale?gce_hpp=1&utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
+
+- title: The Lakes by YOO
+  id: the-lakes-by-yoo
+  external-offer: true
+  location: Cotswolds
+  description: The Lakes by YOO is a private estate of second family homes and rental residences in the heart of the Cotswolds. With 850 acres of lakes, meadows and ancient woodland, it’s as serene as it is secure.
+  price:
+  price-description: per room per night
+  saved:
+  expires:
+  link: https://goo.gl/jrGwKV
+  
+- title: Chatsworth Estate Holiday Cottages
+  id: chatsworth-estate-holiday-cottages
+  offers-page: true
+  external-offer: true
+  location: Peaks District
+  description: >
+    Located in the heart of the Peak District National Park, the Chatsworth Estate offers 20 luxury self-catering holiday cottages owned by the Duke of Devonshire – the perfect base when visiting the Peaks. Use the code <strong>SECRET</strong> when booking to get an exclusive 15% off.
+  price:
+  price-description:
+  saved:
+  expires:
+  link: http://bit.ly/2Mvbqb6
+
+# - title: The Gardeners Cottage
+#   id: the-gardeners-cottage
+#   external-offer: true
+#   location: Peaks District
+#   description: Gardener's Cottage is grade II listed and was built in the early 19th century. It is situated within Chatsworth Park and has an elevated position opposite the historic village of Edensor.
+#   price:
+#   price-description: per room per night
+#   saved:
+#   expires:
+#   link: https://goo.gl/YudhDS
+

@@ -14,7 +14,7 @@ layout: standard
 <div class="container vpad--xxl">
   <div class="row row--xl-6-6 row--gutters-lg">
 
-    {% assign offers = site.data.offers | where: 'offers-page','true' %}
+    {% assign offers = site.data.offers %}
     {% for offer in offers %}
       <div class="col">
         {% include offer/offer.html %}
