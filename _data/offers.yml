@@ -21,13 +21,24 @@
 
 - title: Stylish Lake District stay at a new bolthole on Ullswater's shores
   id: stylish-lake-district-stay-at-a-new-bolthole-on-ullswater-s-shores
+  region: lake-district
   location: Another Place, The Lake, Penrith
   description: A new, boutique Lake District hideaway on the shores of Ullswater Lake
   price: 160
   price-description: per room per night
   saved: 36
-  expires: 2018/09/26
+  expires: 2018/10/03
   link: https://www.secretescapes.com/stylish-lake-district-stay-at-a-new-bolthole-another-place-the-lake-penrith/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
+
+- title: Impressive Staffordshire stately home with top spa
+  id: impressive-staffordshire-stately-home-with-top-spa
+  location: Hoar Cross Hall, Hoar Cross
+  description: A stunning Grade II listed Staffordshire manor with spa
+  price: 229
+  price-description: per room per night
+  saved: 42
+  expires: 2018/10/03
+  link: https://www.secretescapes.com/hoar-cross-hall-hoar-cross-staffordshire/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
 
 - title: Palatial country spa hotel with spa in Northamptonshire
   id: palatial-country-spa-hotel-with-spa-in-northamptonshire
@@ -36,7 +47,7 @@
   price: 125
   price-description: per room per night
   saved: 46
-  expires: 2018/09/26
+  expires: 2018/10/03
   link: https://www.secretescapes.com/an-elegant-country-hotel-with-spa-in-northamptonshire-rushton-hall-rushton/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
 
 - title: Stunning Buckinghamshire turreted country house
@@ -46,18 +57,8 @@
   price: 249
   price-description: per room per night
   saved: 44
-  expires: 2018/09/26
+  expires: 2018/10/03
   link: https://www.secretescapes.com/stunning-buckinghamshire-turreted-country-house-danesfield-house-hotel-and-spa-marlow-on-thames/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
-
-- title: 5* Devon country house with exceptional dining plus festive dates
-  id: 5-devon-country-house-with-exceptional-dining-plus-festive-dates
-  location: Lympstone Manor, Exmouth
-  description: A stunning five-star Devon hotel with Michelin star dining
-  price: 543
-  price-description: per room per night
-  saved: 40
-  expires: 2018/09/26
-  link: https://www.secretescapes.com/5-star-devon-country-house-with-exceptional-dining-plus-christmas-dates-lympstone-manor-exmouth/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
 
 - title: Grand hotel & cottages on the Newquay coast
   id: grand-hotel-cottages-on-the-newquay-coast
@@ -66,19 +67,8 @@
   price: 132
   price-description: per room per night
   saved: 48
-  expires: 2018/09/26
+  expires: 2018/10/03
   link: https://www.secretescapes.com/grand-hotel-and-cottages-on-the-newquay-coast-the-headland-cornwall/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
-
-- title: North Yorkshire country house with luxe spa and AA rosette dining
-  id: north-yorkshire-country-house-with-luxe-spa-and-aa-rosette-dining
-  region: peak-district
-  location: Feversham Arms Hotel & Verbena Spa, Helmsley
-  description: An acclaimed boutique spa retreat in North Yorkshire
-  price: 299
-  price-description: per room per night
-  saved: 50
-  expires: 2018/09/26
-  link: https://www.secretescapes.com/north-yorkshire-country-house-with-luxe-spa-and-aa-rosette-dining-feversham-arms-hotel-and-verbena-spa-helmsley/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
 
 - title: Award-winning Cornwall hotel with double AA Rosette dining
   id: award-winning-cornwall-hotel-with-double-aa-rosette-dining
@@ -87,7 +77,7 @@
   price: 125
   price-description: per room per night
   saved: 38
-  expires: 2018/09/26
+  expires: 2018/10/03
   link: https://www.secretescapes.com/award-winning-cornwall-hotel-with-double-aa-rosette-dining-penventon-park-hotel-redruth/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
 
 - title: Award-winning boutique hotel stay next to Waddesdon Manor
@@ -97,29 +87,28 @@
   price: 99
   price-description: per room per night
   saved: 60
-  expires: 2018/09/26
+  expires: 2018/10/03
   link: https://www.secretescapes.com/five-arrows-hotel-waddesdon-buckinghamshire/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
 
-- title: Wiltshire stay in a cosy manor house
-  id: wiltshire-stay-in-a-cosy-manor-house
-  region: cotswolds
-  location: Woolley Grange, Bradford-on-Avon
-  description: A Jacobean manor house on the edge of the Cotswolds
-  price: 119
+- title: An elegant country house stay in the Surrey Hills
+  id: an-elegant-country-house-stay-in-the-surrey-hills
+  location: Barnett Hill Country House Hotel, Surrey
+  description: A Surrey country house with double AA Rosette dining
+  price: 155
   price-description: per room per night
-  saved: 34
-  expires: 2018/09/26
-  link: https://www.secretescapes.com/a-wiltshire-stay-in-a-cosy-manor-house-woolley-grange-bradford-on-avon/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
+  saved: 41
+  expires: 2018/10/03
+  link: https://www.secretescapes.com/an-elegant-country-house-stay-in-the-surrey-hills-barnett-hill-country-house-hotel-surrey/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
 
-- title: 5* refined West Sussex sojourn
-  id: 5-refined-west-sussex-sojourn
-  location: Alexander House & Utopia Spa, East Grinstead
-  description: Five-star spa heaven at a West Sussex award-winner
-  price: 199
+- title: Cosy country inn within Exmoor National Park
+  id: cosy-country-inn-within-exmoor-national-park
+  location: The Hunter's Inn, Devon
+  description: Traditional country inn near idyllic Heddon Valley
+  price: 99
   price-description: per room per night
-  saved: 43
-  expires: 2018/09/26
-  link: https://www.secretescapes.com/alexander-house-hotel-and-utopia-spa-east-grinstead-west-sussex/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
+  saved: 45
+  expires: 2018/10/03
+  link: https://www.secretescapes.com/cosy-country-inn-within-exmoor-national-park-the-hunters-inn-devon/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
 
 - title: Idyllic Cornish retreat overlooking St Michael’s Mount
   id: idyllic-cornish-retreat-overlooking-st-michael-s-mount
@@ -128,17 +117,17 @@
   price: 107
   price-description: per room per night
   saved: 49
-  expires: 2018/09/26
+  expires: 2018/09/29
   link: https://www.secretescapes.com/idyllic-cornish-retreat-overlooking-st-michaels-mount-mount-haven-hotel-cornwall/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
 
-- title: Elegant Laura Ashley design hotel with beautiful gardens
-  id: elegant-laura-ashley-design-hotel-with-beautiful-gardens
+- title: Elegant Laura Ashley design hotel with beautiful gardens in Elstree
+  id: elegant-laura-ashley-design-hotel-with-beautiful-gardens-in-elstree
   location: Laura Ashley Hotel The Manor Elstree, Hertfordshire
   description: An elegant Laura Ashley-owned hotel in Hertfordshire
   price: 125
   price-description: per room per night
   saved: 47
-  expires: 2018/09/26
+  expires: 2018/09/29
   link: https://www.secretescapes.com/elegant-design-hotel-with-beautiful-gardens-laura-ashley-hotel-the-manor-elstree-hertfordshire/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
 
 - title: Award-winning Lake District hotel on the shores of Ullswater
@@ -149,7 +138,7 @@
   price: 289
   price-description: per room per night
   saved: 45
-  expires: 2018/09/26
+  expires: 2018/10/03
   link: https://www.secretescapes.com/award-winning-lake-district-hotel-on-the-shores-of-ullswater-sharrow-bay-lake-district/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
 
 - title: Championship golf, spa and country idyll in Stapleford
@@ -169,7 +158,7 @@
   price: 149
   price-description: per room per night
   saved: 45
-  expires: 2018/09/26
+  expires: 2018/10/03
   link: https://www.secretescapes.com/luxury-pembrokeshire-country-house-with-award-winning-dining-grove-of-narberth-wales/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
 
 - title: Luxurious Cotswolds stay with gourmet dining
@@ -180,7 +169,7 @@
   price: 239
   price-description: per room per night
   saved: 49
-  expires: 2018/09/26
+  expires: 2018/09/29
   link: https://www.secretescapes.com/luxurious-cotswolds-stay-with-gourmet-dining-lords-of-the-manor-cheltenham/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
 
 - title: Scenic stay with views over Lake Windermere
@@ -191,7 +180,7 @@
   price: 149
   price-description: per room per night
   saved: 45
-  expires: 2018/09/26
+  expires: 2018/10/03
   link: https://www.secretescapes.com/scenic-stay-with-views-over-lake-windermere-hillthwaite-house-hotel-lake-district/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
 
 - title: Historic Cornwall stay in a quiet fishing village
@@ -208,9 +197,9 @@
   id: boutique-st-ives-stay-near-carbis-bay
   location: The Gannet Inn, Cornwall
   description: A boutique Cornwall pad near a Blue Flag beach
-  price: 109
+  price: 99
   price-description: per room per night
-  saved: 56
+  saved: 60
   expires: 2018/10/03
   link: https://www.secretescapes.com/boutique-st-ives-stay-overlooking-carbis-bay-the-gannet-inn-cornwall/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
 
@@ -221,7 +210,7 @@
   price: 125
   price-description: per room per night
   saved: 26
-  expires: 2018/09/26
+  expires: 2018/10/03
   link: https://www.secretescapes.com/albion-house-ramsgate-kent/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
 
 - title: Idyllic Peak District retreat with award-winning dining
@@ -252,28 +241,29 @@
   price: 79
   price-description: per room per night
   saved: 47
-  expires: 2018/09/26
+  expires: 2018/10/03
   link: https://www.secretescapes.com/scenic-scottish-highland-hunting-lodge-stay-near-gairloch-shieldaig-lodge-scotland/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
 
-- title: Idyllic Yorkshire Dales glamping stay at an acclaimed retreat
-  id: idyllic-yorkshire-dales-glamping-stay-at-an-acclaimed-retreat
-  location: Swinton Bivouac Luxury Glamping, Masham
-  description: Beautiful hand-crafted lodges and yurts in the unspoilt dales, with room for a large group
-  price: 99
-  price-description: per yurt per night
-  saved: 42
-  expires: 2018/09/26
-  link: https://www.secretescapes.com/idyllic-yorkshire-dales-glamping-stay-at-an-acclaimed-retreat-swinton-bivouac-luxury-glamping-masham/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
-
-- title: Charming hotel set in the scenic Scottish Highlands
-  id: charming-hotel-set-in-the-scenic-scottish-highlands
-  location: Forss House, Thurso
-  description: A charming four-star hotel in the Scottish Highlands
-  price: 89
+- title: Boutique central Bath city escape
+  id: boutique-central-bath-city-escape
+  location: No.15 Great Pulteney, Somerset
+  description: Stay in a chic boutique townhouse hotel in Bath
+  price: 145
   price-description: per room per night
-  saved: 58
-  expires: 2018/09/26
-  link: https://www.secretescapes.com/charming-hotel-set-in-the-scenic-scottish-highlands-forss-house-thurso/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
+  saved: 47
+  expires: 2018/10/03
+  link: https://www.secretescapes.com/boutique-central-bath-city-escape-no15-great-pulteney-somerset/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
+
+- title: Cotswolds country manor house spa stay
+  id: cotswolds-country-manor-house-spa-stay
+  region: cotswolds
+  location: Whatley Manor, Wiltshire
+  description: Cotswolds spa escape at a grand country manor house
+  price: 299
+  price-description: per room per night
+  saved: 31
+  expires: 2018/09/29
+  link: https://www.secretescapes.com/whatley-manor-malmesbury-wiltshire/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=September2018
 
 - title: Elegant boutique hotel on the Norfolk Broads
   id: elegant-boutique-hotel-on-the-norfolk-broads
