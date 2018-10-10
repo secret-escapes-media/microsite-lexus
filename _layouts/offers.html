@@ -14,7 +14,7 @@ layout: standard
 <div class="container vpad--xxl">
   <div class="row row--xl-6-6 row--gutters-lg">
 
-    {% assign offers = site.data.offers %}
+    {% assign offers = site.data.offers | sort:"saved" | reverse %}
     {% for offer in offers %}
       <div class="col">
         {% include offer/offer.html %}
