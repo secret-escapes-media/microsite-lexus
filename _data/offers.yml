@@ -18,45 +18,14 @@
 
 
 
-
-- title: Vibrant Cornwall beach stay with acclaimed restaurant
-  id: vibrant-cornwall-beach-stay-with-acclaimed-restaurant
-  location: The Beach at Bude, Bude
-  description: An acclaimed Cornish beachfront hotel for foodies
-  price: 109
-  price-description: per room per night
-  saved: 54
-  expires: 2018/10/13
-  link: https://www.secretescapes.com/the-beach-at-bude-bude-cornwall/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
-
-- title: Grand hotel & cottages on the Newquay coast
-  id: grand-hotel-cottages-on-the-newquay-coast
-  location: The Headland, Cornwall
-  description: A grand hotel and cottages overlooking Cornwall's Fistral Beach
-  price: 84
-  price-description: per room per night
-  saved: 57
-  expires: 2018/10/11
-  link: https://www.secretescapes.com/grand-hotel-and-cottages-on-the-newquay-coast-the-headland-cornwall/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
-
-- title: Boutique St Ives stay near Carbis Bay
-  id: boutique-st-ives-stay-near-carbis-bay
-  location: The Gannet Inn, Cornwall
-  description: A boutique Cornwall pad near a Blue Flag beach
-  price: 99
-  price-description: per room per night
-  saved: 60
-  expires: 2018/10/17
-  link: https://www.secretescapes.com/boutique-st-ives-stay-overlooking-carbis-bay-the-gannet-inn-cornwall/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
-
-- title: Elegant boutique hotel on the Norfolk Broads
-  id: elegant-boutique-hotel-on-the-norfolk-broads
-  location: The Norfolk Mead Hotel, Norwich
+- title: The Norfolk Mead Hotel
+  id: the-norfolk-mead-hotel
+  location: Norfolk Broads, Norwich
   description: A boutique stay with award-winning dining on the Norfolk Broads
   price: 159
   price-description: per room per night
   saved: 39
-  expires: 2018/10/17
+  expires: 2018/10/24
   link: https://www.secretescapes.com/elegant-boutique-hotel-on-the-norfolk-broads-the-norfolk-mead-hotel-norwich/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
 
 - title: Charming Bradford-on-Avon escape
@@ -66,71 +35,28 @@
   price: 89
   price-description: per room per night
   saved: 51
-  expires: 2018/10/17
+  expires: 2018/10/24
   link: https://www.secretescapes.com/charming-bradford-on-avon-escape-widbrook-grange-wiltshire/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
 
-- title: Award-winning Cornwall hotel with double AA Rosette dining
-  id: award-winning-cornwall-hotel-with-double-aa-rosette-dining
-  location: Penventon Park Hotel, Redruth
-  description: A beautiful Cornwall spa hotel with two AA Rosette dining
-  price: 105
-  price-description: per room per night
-  saved: 52
-  expires: 2018/10/17
-  link: https://www.secretescapes.com/award-winning-cornwall-hotel-with-double-aa-rosette-dining-penventon-park-hotel-redruth/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
-
-- title: Boutique Cotswolds country inn
-  id: boutique-cotswolds-country-inn
-  region: cotswolds
-  location: The Plough Inn, Oxfordshire
-  description: A charming countryside inn in the Oxfordshire Cotswolds
-  price: 129
-  price-description: per room per night
-  saved: 24
-  expires: 2018/10/17
-  link: https://www.secretescapes.com/boutique-cotswolds-country-inn-the-plough-inn-oxfordshire/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
-
-- title: Elegant Somerset countryside stay near Bath
-  id: elegant-somerset-countryside-stay-near-bath
-  location: Tracy Park Golf & Country Hotel, Somerset
-  description: Country charm at an elegant manor house near Bath
-  price: 95
+- title: Ardoe House Hotel & Spa
+  id: ardoe-house-hotel-spa
+  location: Near Aberdeen, Scotland
+  description: An award-winning Victorian country stay near Aberdeen
+  price: 109
   price-description: per room per night
   saved: 46
-  expires: 2018/10/17
-  link: https://www.secretescapes.com/elegant-somerset-countryside-stay-near-bath-tracy-park-golf-and-country-hotel-somerset/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
+  expires: 2018/10/24
+  link: https://www.secretescapes.com/striking-victorian-country-mansion-outside-aberdeen-ardoe-house-hotel-and-spa-scotland/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
 
-- title: Historic Cornwall stay in a quiet fishing village
-  id: historic-cornwall-stay-in-a-quiet-fishing-village
-  location: The Lugger Hotel, Portloe
-  description: A Cornwall bolthole with acclaimed dining and sea views
-  price: 144
+- title: The Cornwall Hotel, Spa & Estate
+  id: the-cornwall-hotel-spa-estate
+  location: St Austell, Cornwall
+  description: A luxury Cornish retreat with state-of-the-art spa
+  price: 99
   price-description: per room per night
-  saved: 42
-  expires: 2018/10/17
-  link: https://www.secretescapes.com/historic-cornwall-stay-in-a-quiet-fishing-village-the-lugger-hotel-portloe/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
-
-- title: Charming 17th-century Cotswolds inn
-  id: charming-17th-century-cotswolds-inn
-  region: cotswolds
-  location: The White Hart Royal Hotel, Moreton-In-Marsh
-  description: Explore the Cotswolds from this historic country inn
-  price: 59
-  price-description: per room per night
-  saved: 57
-  expires: 2018/10/13
-  link: https://www.secretescapes.com/charming-17th-century-cotswolds-inn-the-white-hart-royal-hotel-moreton-in-marsh/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
-
-- title: Boutique Peak District hotel with a spa & classic English gardens
-  id: boutique-peak-district-hotel-with-a-spa-classic-english-gardens
-  region: peak-district
-  location: New Bath Hotel & Spa, Derbyshire
-  description: A Peak District stay with an ESPA spa and gourmet dining
-  price: 79
-  price-description: per room per night
-  saved: 38
-  expires: 2018/10/17
-  link: https://www.secretescapes.com/boutique-peak-district-hotel-with-a-spa-and-classic-english-gardens-new-bath-hotel-and-spa-peak-district/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
+  saved: 43
+  expires: 2018/10/24
+  link: https://www.secretescapes.com/spa-hotel-stay-in-cornwall-with-infinity-pool-the-cornwall-hotel-spa-and-estate-st-austell/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
 
 - title: Idyllic Peak District retreat with award-winning dining
   id: idyllic-peak-district-retreat-with-award-winning-dining
@@ -140,70 +66,8 @@
   price: 165
   price-description: per room per night
   saved: 39
-  expires: 2018/10/13
+  expires: 2018/10/24
   link: https://www.secretescapes.com/idyllic-peak-district-retreat-with-award-winning-dining-losehill-house-hotel-and-spa-hope-valley/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
-
-- title: 5* County Durham stay at an award-winning spa hotel
-  id: 5-county-durham-stay-at-an-award-winning-spa-hotel
-  location: Rockliffe Hall, Darlington
-  description: A Sunday Times recommended gourmet, golf and spa hotel in Durham
-  price: 175
-  price-description: per room per night
-  saved: 42
-  expires: 2018/10/17
-  link: https://www.secretescapes.com/rockliffe-hall-darlington-county-durham/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
-
-- title: Championship golf, spa and country idyll in Stapleford
-  id: championship-golf-spa-and-country-idyll-in-stapleford
-  location: Stapleford Park, Leicestershire
-  description: Award-winning spa and championship golf in Leicestershire
-  price: 159
-  price-description: per room per night
-  saved: 54
-  expires: 2018/10/13
-  link: https://www.secretescapes.com/championship-golf-spa-and-country-idyll-in-stapleford-stapleford-park-leicestershire/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
-
-- title: 5* boutique lodgings in Snowdonia National Park
-  id: 5-boutique-lodgings-in-snowdonia-national-park
-  location: Cross Foxes, Wales
-  description: Five-star Welsh charm in Snowdonia National Park
-  price: 124
-  price-description: per room per night
-  saved: 20
-  expires: 2018/10/13
-  link: https://www.secretescapes.com/boutique-lodgings-south-of-snowdonia-cross-foxes-wales/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
-
-- title: 5* Cotswolds stay in a 12th-century manor
-  id: 5-cotswolds-stay-in-a-12th-century-manor
-  region: cotswolds
-  location: Eckington Manor, Worcestershire
-  description: An award-winning, five-star Cotswolds manor stay
-  price: 99
-  price-description: per room per night
-  saved: 34
-  expires: 2018/10/17
-  link: https://www.secretescapes.com/five-star-cotswold-stay-in-a-12th-century-manor-eckington-manor-worcestershire/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
-
-- title: Castle stay with spa on the edge of the Yorkshire Dales
-  id: castle-stay-with-spa-on-the-edge-of-the-yorkshire-dales
-  location: Swinton Park Hotel & Spa, Masham
-  description: A luxury castle hotel on the edge of the Yorkshire Dales
-  price: 249
-  price-description: per room per night
-  saved: 47
-  expires: 2018/10/17
-  link: https://www.secretescapes.com/castle-stay-with-spa-on-the-edge-of-the-yorkshire-dales-swinton-park-hotel-and-spa-masham/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
-
-- title: Intimate Cotswolds village retreat
-  id: intimate-cotswolds-village-retreat
-  region: cotswolds
-  location: The Castle Inn, Castle Combe
-  description: A simply charming and historic stay in a quintessential Cotswolds village
-  price: 89
-  price-description: per room per night
-  saved: 52
-  expires: 2018/10/17
-  link: https://www.secretescapes.com/intimate-cotswolds-village-retreat-the-castle-inn-castle-combe/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
 
 - title: Perthshire country stay on private wooded grounds
   id: perthshire-country-stay-on-private-wooded-grounds
@@ -212,7 +76,7 @@
   price: 109
   price-description: per room per night
   saved: 44
-  expires: 2018/10/17
+  expires: 2018/10/24
   link: https://www.secretescapes.com/dunkeld-house-hotel-dunkeld-scotland/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
 
 - title: Chic boutique inn near the Surrey Hills
@@ -222,29 +86,8 @@
   price: 99
   price-description: per room per night
   saved: 46
-  expires: 2018/10/13
+  expires: 2018/10/24
   link: https://www.secretescapes.com/boutique-dorking-base-near-the-surrey-hills-white-horse-hotel-surrey/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
-
-- title: Laid-back Lake District hotel with indoor pool
-  id: laid-back-lake-district-hotel-with-indoor-pool
-  region: lake-district
-  location: Stonecross Manor Hotel, Cumbria
-  description: Historic manor hotel in the heart of the Lake District
-  price: 129.5
-  price-description: per room per night
-  saved: 34
-  expires: 2018/10/13
-  link: https://www.secretescapes.com/lake-district-hotel-with-indoor-pool-stonecross-manor-hotel-cumbria/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
-
-- title: North Yorkshire Georgian country estate with boutique rooms
-  id: north-yorkshire-georgian-country-estate-with-boutique-rooms
-  location: Middleton Lodge, Richmond
-  description: North Yorkshire romance at a Georgian country estate
-  price: 109
-  price-description: per room per night
-  saved: 41
-  expires: 2018/10/17
-  link: https://www.secretescapes.com/georgian-country-estate-in-north-yorkshire-middleton-lodge-richmond/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
 
 - title: Luxurious New Forest manor retreat
   id: luxurious-new-forest-manor-retreat
@@ -253,18 +96,29 @@
   price: 95
   price-description: per room per night
   saved: 38
-  expires: 2018/10/17
+  expires: 2018/10/24
   link: https://www.secretescapes.com/plush-new-forest-manor-retreat-burley-manor-hampshire/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
 
-- title: Award-winning spa hotel near Bath
-  id: award-winning-spa-hotel-near-bath
-  location: Homewood Park Hotel & Spa, Somerset
-  description: Award-winning gourmet and spa hotel near picturesque Bath
-  price: 149
+- title: The Beach at Bude
+  id: the-beach-at-bude
+  location: Bude, Cornwall
+  description: An acclaimed Cornish beachfront hotel for foodies
+  price: 109
   price-description: per room per night
-  saved: 45
-  expires: 2018/10/17
-  link: https://www.secretescapes.com/luxe-spa-hotel-near-bath-homewood-park-hotel-and-spa-somerset/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
+  saved: 48
+  expires: 2018/10/24
+  link: https://www.secretescapes.com/the-beach-at-bude-bude-cornwall/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
+
+- title: Intimate Cotswolds village retreat
+  id: intimate-cotswolds-village-retreat
+  region: cotswolds
+  location: The Castle Inn, Castle Combe
+  description: A simply charming and historic stay in a quintessential Cotswolds village
+  price: 89
+  price-description: per room per night
+  saved: 52
+  expires: 2018/10/24
+  link: https://www.secretescapes.com/intimate-cotswolds-village-retreat-the-castle-inn-castle-combe/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
 
 - title: Self-catering villas for up to six in Cornwall
   id: self-catering-villas-for-up-to-six-in-cornwall
@@ -273,7 +127,7 @@
   price: 45
   price-description: per villa per night
   saved: 38
-  expires: 2018/10/17
+  expires: 2018/10/24
   link: https://www.secretescapes.com/self-catering-villas-for-up-to-six-in-cornwall-bay-retreat-villas-padstow/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
 
 - title: Lake District spa hotel stay with award-winning dining
@@ -284,57 +138,66 @@
   price: 169
   price-description: per room per night
   saved: 58
-  expires: 2018/10/17
+  expires: 2018/10/24
   link: https://www.secretescapes.com/elegant-lake-district-abode-with-acclaimed-dining-lodore-falls-hotel-and-spa-keswick/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
 
-- title: Luxury Cornwall spa hotel stay
-  id: luxury-cornwall-spa-hotel-stay
-  location: The Cornwall Hotel, Spa & Estate, St Austell
-  description: A luxury Cornish retreat with state-of-the-art spa
-  price: 99
+- title: North Yorkshire Georgian country estate with boutique rooms
+  id: north-yorkshire-georgian-country-estate-with-boutique-rooms
+  location: Middleton Lodge, Richmond
+  description: North Yorkshire romance at a Georgian country estate
+  price: 109
   price-description: per room per night
-  saved: 43
-  expires: 2018/10/17
-  link: https://www.secretescapes.com/spa-hotel-stay-in-cornwall-with-infinity-pool-the-cornwall-hotel-spa-and-estate-st-austell/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
+  saved: 41
+  expires: 2018/10/24
+  link: https://www.secretescapes.com/georgian-country-estate-in-north-yorkshire-middleton-lodge-richmond/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
 
-- title: Gloucestershire farmhouse stay with an award-winning restaurant
-  id: gloucestershire-farmhouse-stay-with-an-award-winning-restaurant
-  location: Tudor Farmhouse, Royal Forest of Dean
+- title: Tudor Farmhouse
+  id: tudor-farmhouse
+  location: Royal Forest of Dean, Gloucestershire
   description: A praised country farmhouse in the Royal Forest of Dean
   price: 99
   price-description: per room per night
-  saved: 38
-  expires: 2018/10/17
+  saved: 44
+  expires: 2018/10/20
   link: https://www.secretescapes.com/gloucestershire-farmhouse-stay-with-an-award-winning-restaurant-tudor-farmhouse-royal-forest-of-dean/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
 
-- title: Boutique country inn stay in a pretty Oxfordshire village
-  id: boutique-country-inn-stay-in-a-pretty-oxfordshire-village
-  location: The White Hart, Oxfordshire
-  description: A 14th-century Oxfordshire country inn with unique interiors
+- title: Award-winning spa hotel near Bath
+  id: award-winning-spa-hotel-near-bath
+  location: Homewood Park Hotel & Spa, Somerset
+  description: Award-winning gourmet and spa hotel near picturesque Bath
+  price: 134
+  price-description: per room per night
+  saved: 54
+  expires: 2018/10/24
+  link: https://www.secretescapes.com/luxe-spa-hotel-near-bath-homewood-park-hotel-and-spa-somerset/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
+
+- title: Edwardian hotel on Cornwall's west coast
+  id: edwardian-hotel-on-cornwalls-west-coast
+  location: Polurrian Bay Hotel, Mullion
+  description: A colourful Mullion retreat with Cornish coast views
   price: 99
   price-description: per room per night
-  saved: 42
-  expires: 2018/10/17
-  link: https://www.secretescapes.com/boutique-country-inn-stay-in-a-pretty-oxfordshire-village-the-white-hart-oxfordshire/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
+  saved: 49
+  expires: 2018/10/24
+  link: https://www.secretescapes.com/polurrian-bay-hotel-mullion-cornwall/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
 
-- title: 5* Lake District stay at an award-winning hotel
-  id: 5-lake-district-stay-at-an-award-winning-hotel
+- title: The Wordsworth Hotel & Spa
+  id: the-wordsworth-hotel-spa
   region: lake-district
-  location: The Howbeck, Windermere
-  description: A five-star stay at an acclaimed B&amp;B near Lake Windermere
-  price: 99
+  location: Grasmere, Lake District
+  description: Award-winning dining and an organic spa in the Lake District
+  price: 179
   price-description: per room per night
-  saved: 57
-  expires: 2018/10/17
-  link: https://www.secretescapes.com/5-star-lake-district-stay-at-an-award-winning-hotel-the-howbeck-windermere/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
+  saved: 37
+  expires: 2018/10/24
+  link: https://www.secretescapes.com/the-wordsworth-hotel-and-spa-grasmere-lake-district-uk/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
 
-- title: Cumbria hideaway in the Lake District with Michelin-star dining
-  id: cumbria-hideaway-in-the-lake-district-with-michelin-star-dining
-  region: lake-district
-  location: The Forest Side, Ambleside
-  description: Glam Gothic getaway in the heart of the Lake District
-  price: 299
+- title: Tolcarne Beach Village
+  id: tolcarne-beach-village
+  location: Newquay, Cornwall
+  description: A boutique stay on Tolcarne Beach in Newquay Bay
+  price: 89
   price-description: per room per night
-  saved: 29
-  expires: 2018/10/17
-  link: https://www.secretescapes.com/the-forest-side-ambleside-cumbria/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
+  saved: 48
+  expires: 2018/10/24
+  link: https://www.secretescapes.com/tolcarne-beach-village-newquay-cornwall/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=October2018
