@@ -119,6 +119,7 @@
 
 - title: The Wordsworth Hotel & Spa
   id: the-wordsworth-hotel-and-spa
+  region: lake-district
   location: Grasmere, Lake District
   description: Award-winning dining and an organic spa in the Lake District
   price: 179
@@ -155,6 +156,7 @@
 
 - title: Tweedies Bar & Lodge
   id: tweedies-bar-and-lodge
+  region: lake-district
   location: Grasmere, Lake District
   description: A tranquil getaway to the beautiful Lake District
   price: 129
@@ -179,6 +181,7 @@
 
 - title: Macdonald Leeming House
   id: macdonald-leeming-house
+  region: lake-district
   location: Ullswater, Lake District
   description: A 19th-century Lake District hideaway with two AA Rosette dining
   price: 119
@@ -203,6 +206,7 @@
 
 - title: The Old Stocks Inn
   id: the-old-stocks-inn
+  region: cotswolds
   location: Stow-on-the-Wold, Cotswolds
   description: A stylish boutique stay at a charming 17th-century Cotswolds inn
   price: 165
@@ -239,6 +243,7 @@
 
 - title: Cotswold House Hotel & Spa
   id: cotswold-house-hotel-and-spa
+  region: cotswolds
   location: Cotswolds, Gloucestershire
   description: An elegant Cotswolds hideaway with an award-winning spa
   price: 119
@@ -347,6 +352,7 @@
 
 - title: Rothay Manor Hotel
   id: rothay-manor-hotel
+  region: lake-district
   location: Ambleside, Lake District
   description: A Grade II-listed stay with top dining near Lake Windermere
   price: 159
