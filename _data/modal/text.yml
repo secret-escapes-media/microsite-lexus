@@ -44,3 +44,117 @@
   offer-id: another-place
   pages:
     - id: the-family-escape
+
+
+
+
+- type: text
+  id: test-drive-tc
+  title: Terms and conditions
+  content: >
+
+    <ol>
+
+      <div class="title title--xxxs text--bold">PROMOTER AND PARTICIPANTS</div>
+      <div class="space--xs"></div>
+      <li>The Promoter is Secret Escapes Ltd, 120 Holborn, London, EC1N 2TD.</li>
+      <li>All entrants (“Participants”) must be UK and Republic of Ireland residents aged 21 or over.</li>
+      <li>Employees of Secret Escapes, Lexus or their affiliated companies, their families, agents and other parties directly involved with this promotion and the sponsorship are not eligible to enter.</li>
+      <li>By entering this prize draw, all participants are deemed to have agreed to be bound by these terms and conditions unless notified otherwise in writing.</li>
+
+      <div class="space--md"></div>
+      <div class="title title--xxxs text--bold">THE PRIZE DRAW</div>
+      <div class="space--xs"></div>
+
+      <li>To enter this prize draw, participants need to book  a Lexus test drive via the secret Escapes site between 15/11/2018 7.00 am (“Entry Date”) and 26/11/2018 11.59 pm (“Close Date”).</li>
+      <li>No purchase is necessary; it is free to enter this prize draw.</li>
+      <li>Incomplete, invalid or inappropriate entries, or entries received after the closing date will not be eligible to win.</li>
+
+      <div class="space--md"></div>
+      <div class="title title--xxxs text--bold">HOW TO PARTICIPATE</div>
+      <div class="space--xs"></div>
+
+      <li>To enter this draw, participants must fill in the test drive form on the prize draw page at the promoter’s web-site providing the information requested.</li>
+      <li>All entries must be received between the entry date and the close date (UK time).</li>
+
+      <div class="space--md"></div>
+      <div class="title title--xxxs text--bold">PRIZE DRAW REQUIREMENTS</div>
+      <div class="space--xs"></div>
+
+      <li>Participants agree to be contacted by the promoter for the purposes of administering the prize draw.</li>
+      <li>Promoter reserves the right to disqualify incomplete or illegible entries or which otherwise do not meet the requirements.</li>
+
+      <div class="space--md"></div>
+      <div class="title title--xxxs text--bold">THE PRIZE</div>
+      <div class="space--xs"></div>
+
+      <li>The prize will be a) 3-night stay at the Stonehouses in Ullapool for 2 people. b) And use of a Lexus RX for your time away.
+        <ol>
+          <li>The stay must be taken by the 30th April  2019 and is subject to availability and black out dates apply.</li>
+          <li>Terms and conditions apply and are included and the bottom of the T&C’s</li>
+        </ol>
+      </li>
+
+      <li>In the event of circumstances beyond our control  the promoter is not responsible for delays in travel or delivery.</li>
+      <li>Promoter reserves the right to publish name, town and county of the winner or to publicise any prize giving presentation after the date of the draw. If the winner does not wish such details to be published, they must advise the promoter at time of being notified that they have won.</li>
+      <li>The prizes are non-transferable and no cash or credit alternatives will be substituted for the prizes on offer. In the event that the prizes offered are unavailable due to circumstances beyond our control, the promoter reserves the right to offer an alternative prize of equal or greater value.</li>
+      <li>The winner must claim the prize not later than 30 days after the winner has been informed.
+      <li>If the winner rejects or fails to claim the prize on time in accordance with the clause 16 the prize may be awarded to other entrants at the absolute and sole discretion of the promoter.</li>
+
+      <div class="space--md"></div>
+      <div class="title title--xxxs text--bold">SELECTION</div>
+      <div class="space--xs"></div>
+
+      <li>The winner will be drawn at random by Secret Escapes from all submissions received between the entry date and the close date.</li>
+      <li>The winner will be contacted via a direct message from Secret Escapes to the winner’s e-mail address.</li>
+
+      <div class="space--md"></div>
+      <div class="title title--xxxs text--bold">DISCLAIMER</div>
+      <div class="space--xs"></div>
+
+      <li>Promoter reserves the right to refuse to honour any entry or to recover the full value of any prize if it considers there has been an abuse or breach of the terms and conditions of this Prize Draw.</li>
+      <li>Promoter shall not be liable for any loss, damage or injury of any nature howsoever caused, sustained by any participant under this promotion. However, nothing in these rules shall have the effect of excluding or restricting the promoter’s liability for personal injury or death caused by the proven negligence of its employees or contractors.</li>
+      <li>In the event of a dispute over interpretation or implementation of the rules on any matter related to the prize draw, the decision of the directors of the promoter is final and no correspondence will be entered into.</li>
+
+    </ol>
+
+    <div class="space--md"></div>
+    <hr>
+    <div class="title title--xs text--bold">Lexus RX T&C’s</div>
+    <div class="space--xs"></div>
+
+    <ol>
+
+      <div class="title title--xxxs text--bold">DRIVER</div>
+      <div class="space--xs"></div>
+
+      <li>The participant confirms that he or she is the holder of a current UK driving licence permitting him or her to drive motor cars on United Kingdom highways and that he or she is over the age of 25 years of age and not older than 75 years of age.</li>
+      <li>Drivers must have held a valid full licence for a minimum of 2 years. Drivers with 9 points or more on their licence or having had a major driving offence within the past 2 years will not be able to participate in this this prize draw. The Driver agrees to abide by UK Road Traffic Law at all times.</li>
+      <li>The driver hereby declares that he or she is in good health, their eyesight is of the standard required for the UK road driving test and that they are not suffering any illness or disability which may make it unsafe for them to drive.</li>
+      <li>The driver accepts that he or she shall be solely responsible for any decision as to their fitness to drive and that if at any point they are not fit to do so, then they shall cease driving immediately. The driver confirms that at no time when he or she is in charge of the loan car, they are not over the current UK legal limit for driving whilst under the influence of alcohol or drugs that may affect their ability to drive.</li>
+      <li>The driver confirms that should he or she have any cause for concern as to the roadworthiness or safety of any vehicle, they will bring the matter immediately to the attention of a Toyota (G.B) PLC representative.</li>
+
+      <div class="space--md"></div>
+      <div class="title title--xxxs text--bold">LICENCE CHECK</div>
+      <div class="space--xs"></div>
+
+      <li>Prize can only be fulfilled once the driver supplies a copy of the front and back of their driving licence.</li>
+      <li>A maximum of two drivers are permitted to drive the vehicle.</li>
+      <li>All driving licences must be valid for insurance purposes and up to date (i.e. correct address, points removed where they are no longer valid) and must be full not provisional.</li>
+
+      <div class="space--md"></div>
+      <div class="title title--xxxs text--bold">VEHICLE</div>
+      <div class="space--xs"></div>
+
+      <li>The loan of the Lexus RX/ Lexus RX L is subject to certain loan car terms by Toyota (G.B) PLC. The winner must agree to these terms before taking possession of the vehicle.</li>
+      <li>The vehicles available for the winners of this prize draw is a Lexus RX or RX L . Toyota (G.B) PLC reserves the right to provide an alternative vehicle if for any reason Lexus RX / Lexus RX L is not available and to terminate forthwith any drivers’ involvement in the lexus car loan at any time and for any reason.</li>
+      <li>The car must not be taken out of the UK.</li>
+      <li>The vehicle may only be driven by the winner and one further nominated driver, only for private use and not for business purposes or any form of racing.</li>
+      <li>Upon collection of the vehicle it will be subject to a thorough inspection. The winner will be responsible for any damage arising from his failure to take reasonable care.</li>
+      <li>The winner is responsible for any fines, congestion or other charges arising from use of the car and for any damage arising from failure to take reasonable care; the car is insured subject to an insurance excess of £500 for each and every claim under £5,000; £1,000 for each and every claim in excess of £5,000. Please note these excesses are in addition to any amount payable as a result of misfuelling and/or engine damage due to navigating through flooded areas. For clarity in such instances an additional excess to the value of 10% of the repair costs will be charged.Insurance does not cover personal belongings.</li>
+      <li>Smoking is not allowed within the vehicle.</li>
+      <li>The car will be provided with a full tank of fuel. However, the car does not need to be returned with a full tank of fuel.</li>
+    </ol>
+
+  pages:
+    - id: lexus
