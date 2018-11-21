@@ -20,17 +20,61 @@
 
 
 
-- title: Hoar Cross Hall
-  id: hoar-cross-hall
-  location: Hoar Cross, Staffordshire
-  description: A Grade II listed Staffordshire manor with spa
-  price: 229
-  price-description: per room per night
-  saved: 40
-  expires: 2018/11/20
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/39560/232d778f_d50d_46da_8e22_b11607b97c7b.jpg
-  link: https://www.secretescapes.com/impressive-staffordshire-stately-home-with-top-spa-hoar-cross-hall-hoar-cross/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=November2018
 
+- title: The Cornwall Hotel, Spa & Estate
+  id: the-cornwall-hotel-spa-and-estate
+  location: St Austell, Cornwall
+  description: A luxury Cornish retreat with state-of-the-art spa
+  price: 150
+  price-description: per room per night
+  saved: 45
+  expires: 2018/11/22
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/36941/510ff873_0dbe_4528_8b60_9e5d1d5f214c.jpg
+  link: https://www.secretescapes.com/the-cornwall-hotel-spa-and-estate-cornwall-uk/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=November2018
+
+- title: Lympstone Manor
+  id: lympstone-manor
+  location: Exmouth, Devon
+  description: A stunning five-star Devon hotel with Michelin star dining
+  price: 565
+  price-description: per room per night
+  saved: 34
+  expires: 2018/11/22
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/77245/06a42505_cea5_4a4b_9514_6348066625ce.jpg
+  link: https://www.secretescapes.com/5-star-devon-country-house-with-exceptional-dining-plus-festive-dates-lympstone-manor-exmouth/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=November2018
+
+- title: The Gannet Inn
+  id: the-gannet-inn
+  location: Carbis Bay, Cornwall
+  description: A boutique Cornwall pad near a Blue Flag beach
+  price: 110
+  price-description: per room per night
+  saved: 60
+  expires: 2018/11/27
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/73907/7bca90cf_ec5d_4e72_afc4_5d8750cf04cb.jpg
+  link: https://www.secretescapes.com/the-gannet-inn-carbis-bay-cornwall/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=November2018
+
+- title: Carbis Bay Hotel & Estate
+  id: carbis-bay-hotel-and-estate
+  location: St Ives, Cornwall
+  description: A plush, award-winning St Ives beach hotel with a spa
+  price: 139
+  price-description: per room per night
+  saved: 58
+  expires: 2018/11/27
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/42163/db39b1af_223c_419a_a2e2_e09586e11ae1.jpg
+  link: https://www.secretescapes.com/carbis-bay-hotel-and-estate-st-ives-cornwall/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=November2018
+
+- title: Ardoe House Hotel & Spa
+  id: ardoe-house-hotel-and-spa
+  location: Aberdeen, Scotland
+  description: An award-winning Victorian country stay near Aberdeen
+  price: 109
+  price-description: per room per night
+  saved: 48
+  expires: 2018/11/27
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/79163/a8244d56_a97c_430e_9478_5062d335b5ce.jpg
+  link: https://www.secretescapes.com/ardoe-house-hotel-and-spa-aberdeen-scotland/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=November2018
 
 - title: Champneys Henlow
   id: champneys-henlow
@@ -39,22 +83,20 @@
   price: 199
   price-description: per room per night
   saved: 52
-  expires: 2018/11/20
+  expires: 2018/11/27
   image: https://d1x3cbuht6sy0f.cloudfront.net/sales/81648/0c717cb9_8520_4b20_94b3_30e2d22d11c7.jpg
   link: https://www.secretescapes.com/champneys-henlow-henlow-bedfordshire/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=November2018
 
-
-- title: De Vere Oxford Thames
-  id: de-vere-oxford-thames
-  location: Sandford-on-Thames, Oxfordshire
-  description: A charming Oxfordshire hotel on the banks of the River Thames
-  price: 174
+- title: Hoar Cross Hall
+  id: hoar-cross-hall
+  location: Hoar Cross, Staffordshire
+  description: A Grade II listed Staffordshire manor with spa
+  price: 229
   price-description: per room per night
-  saved: 41
-  expires: 2018/11/20
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/15884/92e168c2_697f_4fd7_97d2_ccc09acaf500.jpg
-  link: https://www.secretescapes.com/de-vere-oxford-thames-sandford-on-thames-oxfordshire/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=November2018
-
+  saved: 40
+  expires: 2018/11/27
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/39560/232d778f_d50d_46da_8e22_b11607b97c7b.jpg
+  link: https://www.secretescapes.com/impressive-staffordshire-stately-home-with-top-spa-hoar-cross-hall-hoar-cross/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=November2018
 
 - title: Lifehouse Spa & Hotel
   id: lifehouse-spa-and-hotel
@@ -63,10 +105,53 @@
   price: 119
   price-description: per room per night
   saved: 53
-  expires: 2018/11/20
+  expires: 2018/11/27
   image: https://d1x3cbuht6sy0f.cloudfront.net/sales/44977/65fbdceb_cd04_41b9_93a3_4efec90261fc.jpg
   link: https://www.secretescapes.com/award-winning-adults-only-spa-retreat-in-essex-lifehouse-spa-and-hotel-thorpe-le-soken/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=November2018
 
+- title: Rushton Hall
+  id: rushton-hall
+  location: Rushton, Northamptonshire
+  description: A magnificent Grade I listed hotel and spa in Northamptonshire
+  price: 149
+  price-description: per room per night
+  saved: 35
+  expires: 2018/11/27
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/77072/84034ef4_607e_477b_9f69_d560bdd99122.jpg
+  link: https://www.secretescapes.com/rushton-hall-rushton-northamptonshire/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=November2018
+
+- title: De Vere Oxford Thames
+  id: de-vere-oxford-thames
+  location: Sandford-on-Thames, Oxfordshire
+  description: A charming Oxfordshire hotel on the banks of the River Thames
+  price: 174
+  price-description: per room per night
+  saved: 41
+  expires: 2018/11/27
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/15884/92e168c2_697f_4fd7_97d2_ccc09acaf500.jpg
+  link: https://www.secretescapes.com/de-vere-oxford-thames-sandford-on-thames-oxfordshire/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=November2018
+
+- title: Ashling Hotel
+  id: ashling-hotel
+  location: Dublin, Ireland
+  description: A sleek Dublin hotel with lovely river views
+  price: 89
+  price-description: per room per night
+  saved: 29
+  expires: 2018/11/27
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/82788/50877697_ae9e_4a88_9e18_1bf65bf5e281.jpg
+  link: https://www.secretescapes.com/ashling-hotel-dublin-ireland-1/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=November2018
+
+- title: The Borrowdale Hotel
+  id: the-borrowdale-hotel
+  location: Keswick, Lake District
+  description: An idyllic country house in the beautiful Lake District
+  price: 149
+  price-description: per room per night
+  saved: 53
+  expires: 2018/11/27
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/42131/9cac04de_7ba0_4750_9e8c_c0425a298e02.jpg
+  link: https://www.secretescapes.com/the-borrowdale-hotel-keswick-lake-district/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=November2018
 
 - title: The Crown Inn
   id: the-crown-inn
@@ -75,34 +160,9 @@
   price: 99
   price-description: per room per night
   saved: 49
-  expires: 2018/11/20
+  expires: 2018/11/27
   image: https://d1x3cbuht6sy0f.cloudfront.net/sales/74116/24634494_9c66_4ffe_9f16_92466b6dd438.jpg
   link: https://www.secretescapes.com/the-crown-inn-playhatch-oxfordshire/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=November2018
-
-
-- title: The Principal York
-  id: the-principal-york
-  location: York, Yorkshire
-  description: A glammed-up Victorian hotel right next to York railway station
-  price: 179
-  price-description: per room per night
-  saved: 33
-  expires: 2018/11/20
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/73424/255605c3_3009_4ab7_9a0b_3769f1659c0d.jpg
-  link: https://www.secretescapes.com/the-principal-york-york-yorkshire/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=November2018
-
-
-- title: The Principal Edinburgh George Street
-  id: the-principal-edinburgh-george-street
-  location: Edinburgh, Scotland
-  description: A plush Edinburgh stay at a landmark hotel in the Old Town
-  price: 119
-  price-description: per room per night
-  saved: 39
-  expires: 2018/11/20
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/81659/b552989a_feef_4766_a834_e29546b0746d.jpg
-  link: https://www.secretescapes.com/the-principal-edinburgh-george-street-scotland/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=November2018
-
 
 - title: Fowey Hall
   id: fowey-hall
@@ -111,34 +171,20 @@
   price: 129
   price-description: per room per night
   saved: 44
-  expires: 2018/11/20
+  expires: 2018/11/27
   image: https://d1x3cbuht6sy0f.cloudfront.net/sales/43349/d364342f_c097_4df5_8c1c_d70378676e1a.jpg
   link: https://www.secretescapes.com/fowey-hall-hotel-fowey-cornwall/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=November2018
 
-
-- title: Brooks Country House
-  id: brooks-country-house
-  location: Ross-on-Wye, Herefordshire
-  description: A Herefordshire stay near top ghost-hunting spot, St Briavels Castle
-  price: 119
+- title: Losehill House Hotel & Spa
+  id: losehill-house-hotel-and-spa
+  location: Hope Valley, Peak District
+  description: A peaceful foodie retreat in the Peak District
+  price: 169
   price-description: per room per night
-  saved: 48
-  expires: 2018/11/20
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/50235/84a0209d_f9e4_4d61_98d7_3bcc744fe616.jpg
-  link: https://www.secretescapes.com/brooks-country-house-ross-on-wye-herefordshire/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=November2018
-
-
-- title: An Mor
-  id: an-mor
-  location: Bude, Cornwall
-  description: Quirky Cornish decor at a boutique Bude hotel
-  price: 79
-  price-description: per room per night
-  saved: 43
-  expires: 2018/11/20
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/37459/20fc5d40_ba7b_4439_ba3a_40bb69dcb7df.jpg
-  link: https://www.secretescapes.com/an-mor-bude-cornwall/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=November2018
-
+  saved: 39
+  expires: 2018/11/27
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/51836/7a9e7401_f6dd_4d5c_b3b3_e065146357ab.jpg
+  link: https://www.secretescapes.com/idyllic-peak-district-retreat-with-award-winning-dining-losehill-house-hotel-and-spa-hope-valley/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=November2018
 
 - title: Mottram Hall
   id: mottram-hall
@@ -147,22 +193,9 @@
   price: 149
   price-description: per room per night
   saved: 33
-  expires: 2018/11/20
+  expires: 2018/11/27
   image: https://d1x3cbuht6sy0f.cloudfront.net/sales/80044/31db9151_8438_4f15_9e07_342c8c6543e7.jpg
   link: https://www.secretescapes.com/new-champneys-spa-retreat-in-cheshire-mottram-hall-near-alderley-edge/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=November2018
-
-
-- title: The Hunter's Inn
-  id: the-hunters-inn
-  location: Exmoor National Park, Devon
-  description: Traditional country inn near idyllic Heddon Valley
-  price: 79
-  price-description: per room per night
-  saved: 49
-  expires: 2018/11/20
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/78617/263f14b4_d66a_4858_8928_5ebe48f85341.jpg
-  link: https://www.secretescapes.com/cosy-country-inn-within-exmoor-national-park-the-hunters-inn-devon/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=November2018
-
 
 - title: New Place Hotel
   id: new-place-hotel
@@ -171,59 +204,9 @@
   price: 99
   price-description: per room per night
   saved: 33
-  expires: 2018/11/20
+  expires: 2018/11/27
   image: https://d1x3cbuht6sy0f.cloudfront.net/sales/66430/96c6765d_3959_4217_8da9_8032015ec130.jpg
   link: https://www.secretescapes.com/new-place-hotel-shirrell-heath-southampton/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=November2018
-
-
-- title: The White Hart Royal Hotel
-  id: the-white-hart-royal-hotel
-  region: cotswolds
-  location: Moreton-in-Marsh, Cotswolds
-  description: Explore the Cotswolds from this historic country inn
-  price: 50
-  price-description: per room per night
-  saved: 61
-  expires: 2018/11/20
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/46874/330fea52_af3b_4cca_84c8_0cbb0556b40e.jpg
-  link: https://www.secretescapes.com/charming-17th-century-cotswolds-inn-the-white-hart-royal-hotel-moreton-in-marsh/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=November2018
-
-
-- title: The Hoste
-  id: the-hoste
-  location: Burnham Market, Norfolk
-  description: A boutique hotel with spa in the centre of Norfolk’s Burnham Market
-  price: 249
-  price-description: per room per night
-  saved: 32
-  expires: 2018/11/17
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/81666/5ba4e8f2_7a8d_42c8_a47c_21f3da7535da.jpg
-  link: https://www.secretescapes.com/the-hoste-burnham-market-norfolk/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=November2018
-
-
-- title: The Golden Fleece Hotel
-  id: the-golden-fleece-hotel
-  location: Thirsk, North Yorkshire
-  description: A former coaching inn in a Yorkshire market town
-  price: 50
-  price-description: per room per night
-  saved: 50
-  expires: 2018/11/20
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/55993/c15f5791_089d_439c_a5bf_66647e4bcf2a.jpg
-  link: https://www.secretescapes.com/the-golden-fleece-hotel-thirsk-north-yorkshire/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=November2018
-
-
-- title: The Gannet Inn
-  id: the-gannet-inn
-  location: Carbis Bay, Cornwall
-  description: A boutique Cornwall pad near a Blue Flag beach
-  price: 109.5
-  price-description: per room per night
-  saved: 60
-  expires: 2018/11/20
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/73907/7bca90cf_ec5d_4e72_afc4_5d8750cf04cb.jpg
-  link: https://www.secretescapes.com/the-gannet-inn-carbis-bay-cornwall/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=November2018
-
 
 - title: Trigony House Hotel
   id: trigony-house-hotel
@@ -232,99 +215,64 @@
   price: 75
   price-description: per room per night
   saved: 59
-  expires: 2018/11/20
+  expires: 2018/11/27
   image: https://d1x3cbuht6sy0f.cloudfront.net/sales/82179/30a2634c_20c5_4207_9799_9f16a37efbaf.jpg
   link: https://www.secretescapes.com/trigony-house-hotel-dumfriesshire-scotland/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=November2018
 
-
-- title: Mercure Gloucester Bowden Hall Hotel
-  id: mercure-gloucester-bowden-hall-hotel
-  region: cotswolds
-  location: Cotswolds, Gloucester
-  description: A listed Georgian Cotswolds stay with chic interiors
-  price: 79
+- title: The Hoste
+  id: the-hoste
+  location: Burnham Market, Norfolk
+  description: A boutique hotel with spa in the centre of Norfolk’s Burnham Market
+  price: 249
   price-description: per room per night
-  saved: 39
-  expires: 2018/11/20
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/46054/716970ba_6674_4a9f_a918_793fb011f1a7.jpg
-  link: https://www.secretescapes.com/mercure-gloucester-bowden-hall-hotel-cotswolds-gloucester/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=November2018
+  saved: 32
+  expires: 2018/11/27
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/81666/5ba4e8f2_7a8d_42c8_a47c_21f3da7535da.jpg
+  link: https://www.secretescapes.com/the-hoste-burnham-market-norfolk/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=November2018
 
+- title: The White Hart Royal Hotel
+  id: the-white-hart-royal-hotel
+  location: Moreton-in-Marsh, Cotswolds
+  description: Explore the Cotswolds from this historic country inn
+  price: 50
+  price-description: per room per night
+  saved: 61
+  expires: 2018/11/27
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/46874/330fea52_af3b_4cca_84c8_0cbb0556b40e.jpg
+  link: https://www.secretescapes.com/charming-17th-century-cotswolds-inn-the-white-hart-royal-hotel-moreton-in-marsh/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=November2018
 
-- title: Stonefield Castle
-  id: stonefield-castle
-  location: Loch Fyne, Scotland
-  description: Stunning baronial castle stay on the edge of Loch Fyne
-  price: 75
+- title: Rothay Manor Hotel
+  id: rothay-manor-hotel
+  location: Ambleside, Lake District
+  description: A Grade II-listed stay with top dining near Lake Windermere
+  price: 99
   price-description: per room per night
   saved: 38
-  expires: 2018/11/16
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/39235/2877a38e_b5b0_4333_9f53_8359e7c1f544.jpg
-  link: https://www.secretescapes.com/stonefield-castle-loch-fyne-west-coast-of-scotland/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=November2018
-
-
-- title: Cotswold House Hotel & Spa
-  id: cotswold-house-hotel-and-spa
-  region: cotswolds
-  location: Cotswolds, Gloucestershire
-  description: An elegant Cotswolds hideaway with an award-winning spa
-  price: 119
-  price-description: per room per night
-  saved: 35
-  expires: 2018/11/20
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/37100/0e819f65_d374_4060_9bba_ba309733074a.jpg
-  link: https://www.secretescapes.com/cotswold-house-hotel-and-spa-cotswolds-gloucestershire/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=November2018
-
-
-- title: The Cornwall Hotel, Spa & Estate
-  id: the-cornwall-hotel-spa-and-estate
-  location: St Austell, Cornwall
-  description: A luxury Cornish retreat with state-of-the-art spa
-  price: 150
-  price-description: per room per night
-  saved: 34
-  expires: 2018/11/20
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/36941/510ff873_0dbe_4528_8b60_9e5d1d5f214c.jpg
-  link: https://www.secretescapes.com/the-cornwall-hotel-spa-and-estate-cornwall-uk/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=November2018
-
+  expires: 2018/11/23
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/39009/11d7f2c9_e094_4005_bf92_ebab1abace1c.jpg
+  link: https://www.secretescapes.com/rothay-manor-ambleside-lake-district/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=November2018
 
 - title: North Lakes Hotel & Spa
   id: north-lakes-hotel-and-spa
-  region: lake-district
   location: Penrith, Lake District
   description: A contemporary Lake District spa stay in Penrith
   price: 79
   price-description: per room per night
   saved: 52
-  expires: 2018/11/20
+  expires: 2018/11/27
   image: https://d1x3cbuht6sy0f.cloudfront.net/sales/78744/94050ed5_e322_4644_8f64_26538337b07e.jpg
   link: https://www.secretescapes.com/relaxing-lake-district-hotel-with-spa-facilities-north-lakes-hotel-and-spa-penrith/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=November2018
 
-
-- title: Rothay Manor Hotel
-  id: rothay-manor-hotel
-  region: lake-district
-  location: Ambleside, Lake District
-  description: A Grade II-listed stay with top dining near Lake Windermere
-  price: 159
-  price-description: per room per night
-  saved: 38
-  expires: 2018/11/20
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/39009/11d7f2c9_e094_4005_bf92_ebab1abace1c.jpg
-  link: https://www.secretescapes.com/rothay-manor-ambleside-lake-district/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=November2018
-
-
 - title: The Horse & Groom
   id: the-horse-and-groom
-  region: cotswolds
   location: Upper Oddington, Cotswolds
   description: A charming 16th-century Cotswold pub near Stow-on-the-Wold
   price: 69
   price-description: per room per night
   saved: 49
-  expires: 2018/11/20
+  expires: 2018/11/23
   image: https://d1x3cbuht6sy0f.cloudfront.net/sales/82165/c7438cad_ef39_452e_9367_6c880e09aae7.jpg
   link: https://www.secretescapes.com/the-horse-and-groom-upper-oddington-cotswolds/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=November2018
-
 
 - title: Shieldaig Lodge
   id: shieldaig-lodge
@@ -333,32 +281,17 @@
   price: 129
   price-description: per room per night
   saved: 43
-  expires: 2018/11/20
+  expires: 2018/11/27
   image: https://d1x3cbuht6sy0f.cloudfront.net/sales/82338/f481c7d0_c7e9_4f8f_8fda_95806867cacd.jpg
   link: https://www.secretescapes.com/shieldaig-lodge-west-highlands-scotland/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=November2018
 
-
-- title: Losehill House Hotel & Spa
-  id: losehill-house-hotel-and-spa
-  region: peak-district
-  location: Hope Valley, Peak District
-  description: A peaceful foodie retreat in the Peak District
-  price: 169
-  price-description: per room per night
-  saved: 39
-  expires: 2018/11/20
-  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/51836/7a9e7401_f6dd_4d5c_b3b3_e065146357ab.jpg
-  link: https://www.secretescapes.com/idyllic-peak-district-retreat-with-award-winning-dining-losehill-house-hotel-and-spa-hope-valley/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=November2018
-
-
 - title: New Bath Hotel & Spa
   id: new-bath-hotel-and-spa
-  region: peak-district
   location: Peak District, Derbyshire
   description: A Peak District stay with an ESPA spa and gourmet dining
   price: 169
   price-description: per room per night
   saved: 30
-  expires: 2018/11/20
+  expires: 2018/11/27
   image: https://d1x3cbuht6sy0f.cloudfront.net/sales/36401/55612c47_d996_43b4_aafb_58313e75d0f2.jpg
   link: https://www.secretescapes.com/new-bath-hotel-spa-peak-district-derbyshire/sale?utm_source=SE_media&utm_medium=Lexus&utm_campaign=November2018
